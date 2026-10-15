@@ -1,0 +1,15 @@
+# Local tooling and credentials do not belong in this snapshot.
+/.cache/
+/out/
+/.env
+/.env.*
+/*.log
+/*.pem
+/*.key
+/adb_keys
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.swp
+*.swo

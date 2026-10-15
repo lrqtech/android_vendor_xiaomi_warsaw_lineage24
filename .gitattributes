@@ -1,0 +1,7 @@
+# Store OEM payloads without text or line-ending conversion.
+/proprietary/** filter=lfs diff=lfs merge=lfs -text
+/boot/** filter=lfs diff=lfs merge=lfs -text
+/firmware/*.img filter=lfs diff=lfs merge=lfs -text
+# Keep build definitions directly readable by Git.
+**/Android.bp -filter diff merge text eol=lf
+**/Android.mk -filter diff merge text eol=lf

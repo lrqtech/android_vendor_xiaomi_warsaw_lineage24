@@ -1,0 +1,67 @@
+// Individual, insmod-loaded kernel objects from the signed OS4.0.0.15 recovery CPIO.
+
+prebuilt_kernel_module {
+    name: "warsaw_recovery_adsp_loader_dlkm",
+    src: "vendor/lib/modules/adsp_loader_dlkm.ko",
+    recovery: true,
+    relative_install_path: "vendor",
+    sha256: "9ca120d6ed44b4433e2b7c9be7d02f873f1364129f6fdf61c1576050f66ddbf6",
+    vermagic: "6.6.57-android15-8-4k SMP preempt mod_unload modversions aarch64",
+}
+
+prebuilt_kernel_module {
+    name: "warsaw_recovery_gpr_dlkm",
+    src: "vendor/lib/modules/gpr_dlkm.ko",
+    recovery: true,
+    relative_install_path: "vendor",
+    sha256: "0a6d4b849578d1500315bb6d24bcb20849e11032ca30dea8e1802104ead56624",
+    vermagic: "6.6.57-android15-8-4k SMP preempt mod_unload modversions aarch64",
+}
+
+prebuilt_kernel_module {
+    name: "warsaw_recovery_q6_notifier_dlkm",
+    src: "vendor/lib/modules/q6_notifier_dlkm.ko",
+    recovery: true,
+    relative_install_path: "vendor",
+    sha256: "fb6d74a98176687f9949c0ee08d57a0db63b19a30202cde9f1b900246bfe091d",
+    vermagic: "6.6.57-android15-8-4k SMP preempt mod_unload modversions aarch64",
+}
+
+prebuilt_kernel_module {
+    name: "warsaw_recovery_q6_pdr_dlkm",
+    src: "vendor/lib/modules/q6_pdr_dlkm.ko",
+    recovery: true,
+    relative_install_path: "vendor",
+    sha256: "d738b481326f45636c15d15e2636e3c99a9990658720d813524f933364b12c03",
+    vermagic: "6.6.57-android15-8-4k SMP preempt mod_unload modversions aarch64",
+}
+
+prebuilt_kernel_module {
+    name: "warsaw_recovery_snd_event_dlkm",
+    src: "vendor/lib/modules/snd_event_dlkm.ko",
+    recovery: true,
+    relative_install_path: "vendor",
+    sha256: "9b49ce26c9b948e6f0dd7ecc106dad89eca77c6e90a0bfdec403adabc403d8c2",
+    vermagic: "6.6.57-android15-8-4k SMP preempt mod_unload modversions aarch64",
+}
+
+prebuilt_kernel_module {
+    name: "warsaw_recovery_spf_core_dlkm",
+    src: "vendor/lib/modules/spf_core_dlkm.ko",
+    recovery: true,
+    relative_install_path: "vendor",
+    sha256: "3a4a933cc9e817c752dc43d1beaab20fe55740eb1a9afd04ec069f4c25ed08e1",
+    vermagic: "6.6.57-android15-8-4k SMP preempt mod_unload modversions aarch64",
+}
+
+phony {
+    name: "warsaw_recovery_adsp_modules",
+    required: [
+        "warsaw_recovery_adsp_loader_dlkm",
+        "warsaw_recovery_gpr_dlkm",
+        "warsaw_recovery_q6_notifier_dlkm",
+        "warsaw_recovery_q6_pdr_dlkm",
+        "warsaw_recovery_snd_event_dlkm",
+        "warsaw_recovery_spf_core_dlkm",
+    ],
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preinstalled-apps version="1">
+    <!-- Original OTA bytes and signer. PackageInstaller supplies ordinary app semantics. -->
+    <app package="com.duokan.phone.remotecontroller"
+         path="/product/data-app/XMRemoteController/XMRemoteController.apk"
+         sha256="5284d184dd7d97ec63f3d91c7282edf72f240e535fe207ca49470fefc3ab95f1"
+         certificate="7d5096707835623b3879f417cad3df0d6717246acd8dad55d2959d526d95ab0a" />
+</preinstalled-apps>
