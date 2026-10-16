@@ -1,38 +1,42 @@
-# Xiaomi Warsaw proprietary inputs for LineageOS 24
+# Xiaomi warsaw vendor files
 
-Private vendor snapshot for `warsaw`, based on the Xiaomi
-OS4.0.0.15.XHPCNXM Android 17 OTA and the paired source-built no-KUnit GKI.
-This repository belongs at `vendor/xiaomi/warsaw` in the pinned platform
-workspace described by the [device repository](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24).
+Proprietary files for LineageOS 24 on Xiaomi warsaw, based on the
+OS4.0.0.15.XHPCNXM Android 17 OTA. Place this repository at
+`vendor/xiaomi/warsaw` and follow the
+[device build instructions](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/lineage-24.0/docs/BUILD.md).
 
-## Fetching files
+## Git LFS
 
-Git LFS is mandatory. Install it before cloning, authenticate to the private
-repository, then run `git lfs pull` and `git lfs fsck` in this checkout.
-Small LFS pointer files are not valid build inputs.
+Install Git LFS before cloning. After checkout, download and check the files:
+
+```sh
+git lfs pull
+git lfs fsck
+```
+
+The build requires the actual files, not LFS pointers.
 
 ## Contents
 
-- `proprietary/`: selected HALs, libraries, firmware configuration and OEM
-  application inputs, with their Android build definitions.
-- `firmware/`: retained OTA firmware images required by the device configuration.
-- `boot/`: OTA boot geometry, DTB/DTBO, vendor modules and stock fallback inputs.
-- `boot/gki-no-kunit/`: the paired source-built Image and 78 production GKI
-  modules, build configuration, public signing certificate and hash manifest.
+| Directory | Contents |
+| --- | --- |
+| `proprietary/` | HALs, libraries, configuration and OEM app files |
+| `firmware/` | OTA firmware images used by the device tree |
+| `boot/` | Boot configuration, DTB/DTBO, OEM modules and stock GKI fallback |
+| `boot/gki-no-kunit/` | Source-built 4 KiB Image, 78 GKI modules, config, public signing certificate and hashes |
 
-The 538 unique OEM vendor modules and six recovery-specific variants retain
-the reference OTA bytes. This is not a claim that those OEM modules have been
-reproduced from source. The GKI source is in the
+The 538 OEM modules and six recovery variants are unchanged from the OTA.
+GKI source and build instructions are in the
 [kernel repository](https://github.com/lrqtech/android_kernel_xiaomi_warsaw_lineage24).
 
-Read [DIFFERENCES.md](docs/DIFFERENCES.md) before comparing with the OTA.
-`docs/payload-sha256.json` records the exact files published in this snapshot.
-This is an unofficial development input set; device acceptance and on-device
-functional validation remain separate tasks.
+[DIFFERENCES.md](docs/DIFFERENCES.md) lists changes from the OTA, including
+the camera library fixups and repacked Mi Remote APK.
+[payload-sha256.json](docs/payload-sha256.json) records the file hashes.
+Known hardware issues are tracked in the
+[device tree](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/lineage-24.0/docs/STATUS.md).
 
 ## Licensing
 
-Proprietary components remain subject to their original owners' terms.
-Existing source notices are retained. No blanket open-source license or
-redistribution permission is asserted over these binaries. Private storage
-does not change their licensing status.
+Proprietary files remain subject to their owners' terms. This repository
+does not grant redistribution rights or apply an open-source license to
+those files. Existing source licenses and copyright notices are retained.
