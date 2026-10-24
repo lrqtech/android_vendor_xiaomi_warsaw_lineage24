@@ -67159,7 +67159,7 @@ cc_prebuilt_binary {
                 "libselinux",
                 "libsysutils",
                 "libutils",
-                "libmisight",
+                "libmisight_warsaw_system_ext",
                 "libc++",
                 "libc",
                 "libm",
@@ -68476,7 +68476,8 @@ cc_prebuilt_binary {
     strip: {
         none: true,
     },
-    prefer: true,
+    // Use the source service with checked GPT and UFS error handling.
+    prefer: false,
     relative_install_path: "hw",
     soc_specific: true,
 }

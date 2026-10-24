@@ -31,7 +31,10 @@ certificate is included.
 
 Init services, sockets and node labels are adapted for LineageOS. Unused
 HyperOS and debug startup paths are removed. Vendor module loading waits for
-the load operation to finish and checks its result.
+the load operation to finish and checks its result. The October 24 update adds
+service domains, narrows startup ordering, and aligns boot-time node access with
+the matching device policy. The qvrd USB MTU command runs in its dedicated domain.
+Recovery receives the retained Xiaomi touch and Goodix module inputs.
 
 GNSS uses OEM assistance/XTRA settings and Android CA paths. An outdoor fix
 has not yet been confirmed; see the device [known issues](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/lineage-24.0/docs/STATUS.md).
@@ -40,5 +43,6 @@ has not yet been confirmed; see the device [known issues](https://github.com/lrq
 
 [payload-sha256.json](payload-sha256.json) lists the hashes of the files in
 this repository, including modified files. It is not a list of original OTA
-hashes. A portable extraction and fixup script for the full vendor tree is
-still needed.
+hashes. The device tree now provides prepared-input verification, import, and metadata
+generation. Raw OTA and running-device extraction still need reproducible fixups
+and a validated round trip.

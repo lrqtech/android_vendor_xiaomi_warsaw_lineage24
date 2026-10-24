@@ -1,5 +1,6 @@
 {
   "algorithm": "sha256",
+  "source_set": "warsaw-20261024",
   "files": {
     "proprietary/odm/bin/audio-factory-test": {
       "bytes": 51672,
@@ -5546,8 +5547,8 @@
       "sha256": "0cf3f59d9f5bc8f4da93c4054049732052c895f5302ef9a9ff237c86e17a92f2"
     },
     "proprietary/odm/etc/init/vendor.xiaomi.hardware.authsecretd.rc": {
-      "bytes": 477,
-      "sha256": "f79868ad37fad115f004881e2acf0527f4bc832ae9c69ecd79727c3ef90d78ea"
+      "bytes": 463,
+      "sha256": "15abc05ba65f0bb9dc6376f5a55d4d2944d9e0dba63c2354f8ca31c3a5151e5a"
     },
     "proprietary/odm/etc/init/vendor.xiaomi.hardware.idmanager.rc": {
       "bytes": 395,
@@ -5578,16 +5579,16 @@
       "sha256": "dd0d67003de02338ba8c6c5a63415c3aa38c3b5fd7717d5220c3bda1fcdc4ced"
     },
     "proprietary/odm/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc": {
-      "bytes": 6610,
-      "sha256": "5a5d33f7c66589e8e8893b109b2a8dcf7ac345d7838f775f60a59ee0797563c4"
+      "bytes": 1493,
+      "sha256": "a8a1102672c3783e468acc31dbe758c5ded37194180fdd8b43b4c69c2c27b572"
     },
     "proprietary/odm/etc/init/vendor.xiaomi.hardware.vsimapp-service.rc": {
       "bytes": 89,
       "sha256": "8a9b5b53a7f41d9332d855e6fa929490a89f199f29c183043faea18c5e0852b0"
     },
     "proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc": {
-      "bytes": 7286,
-      "sha256": "27655bea1906480a11dbadc861ea135d4e7c401af6884c9a4656ff90e029975b"
+      "bytes": 3065,
+      "sha256": "b0ee3b8cb0ae0319a7f54eeac9500a2c9519cb9791bc1d6ce8c5776dc7c23fdc"
     },
     "proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc": {
       "bytes": 298,
@@ -12606,8 +12607,8 @@
       "sha256": "9fe5820341f02b26d35eed9cc7dc833d67ad483c4cbc3af628baf74095551ef0"
     },
     "proprietary/system_ext/etc/init/init.miui.cameraopt.rc": {
-      "bytes": 9856,
-      "sha256": "e12cd4e696337bbf9993f2caa7687601170b3e20f4a884dba4e7545856d43484"
+      "bytes": 9405,
+      "sha256": "46d0ae3ada9f8e549293d35b0863d7a8da553fe2a1c4ed29063b43274fbe988a"
     },
     "proprietary/system_ext/etc/init/init.xiaomi.cammsger.rc": {
       "bytes": 3135,
@@ -13262,12 +13263,12 @@
       "sha256": "43a9a0ee8b1dce2d49b80f740c7bbabea1040c790db812f7bc62cf2cec17d044"
     },
     "proprietary/vendor/bin/init.kernel.extra_free_kbytes.sh": {
-      "bytes": 1037,
-      "sha256": "f5d1b28fdf022b3e578f7ed256346d2425d837be2b2f9b543805be174de97afd"
+      "bytes": 1041,
+      "sha256": "741936da4e58b5896ccea3f17b9c6ba0865bd818b2d0891a7c6ebb2287498f6d"
     },
     "proprietary/vendor/bin/init.kernel.init_boot-memory.sh": {
-      "bytes": 2519,
-      "sha256": "ef8699623408c373a54f93d790afe17124f0301c6b9f840975873b81b1ab6554"
+      "bytes": 2593,
+      "sha256": "2f254585b953f267b9d0878e3dac3ba14fa9cd438d4d174060071b045943cd1c"
     },
     "proprietary/vendor/bin/init.kernel.post_boot-kera.sh": {
       "bytes": 2092,
@@ -13290,24 +13291,24 @@
       "sha256": "bce07ee3fb421eeb5931154741459a078821d4baa4126abbf0adc5b106937617"
     },
     "proprietary/vendor/bin/init.kernel.post_boot-memory.sh": {
-      "bytes": 8811,
-      "sha256": "46216ab159688a27a85fd3fa8877f68140b625aa49a43a886fd81adc9f29a147"
+      "bytes": 8594,
+      "sha256": "bb2cd1d963663858e07ae4c5551f2fd12ac85820262ed43e2e8c3aba44f21377"
     },
     "proprietary/vendor/bin/init.kernel.post_boot-sun.sh": {
       "bytes": 1884,
       "sha256": "026c1d33dcf916eb1059cbcd0b89aef7b8a4f863da673c4b5966b15a2e0df4c5"
     },
     "proprietary/vendor/bin/init.kernel.post_boot-sun_5_2.sh": {
-      "bytes": 9338,
-      "sha256": "cf375cb5794de909c53426dc5b58d79c164ee55ee20383e7b2c7434f1336b840"
+      "bytes": 9644,
+      "sha256": "697036e5294c73fd31eba043bd96d6ede3c69170cddf4a9136d9f89706b86690"
     },
     "proprietary/vendor/bin/init.kernel.post_boot-sun_6_0.sh": {
-      "bytes": 8388,
-      "sha256": "0a3e77d48da2cb9141e0f0191953802e6ac94d7ae331dbf6ddd31950a95c0996"
+      "bytes": 8694,
+      "sha256": "af3dcb209c1b58423cb0b5ae8f959c85dce14023a3898ce170e13275af104924"
     },
     "proprietary/vendor/bin/init.kernel.post_boot-sun_default_6_2.sh": {
-      "bytes": 12029,
-      "sha256": "382f046aa2f7853951ee0db97b5e55a6a2a89e3b49f11454854712490a8ea801"
+      "bytes": 12463,
+      "sha256": "386d97483d8284ad6012b72db23fa9178309a27b3495a082f8d4e6bd8c3d5ffd"
     },
     "proprietary/vendor/bin/init.kernel.post_boot-tuna.sh": {
       "bytes": 2197,
@@ -13342,32 +13343,32 @@
       "sha256": "ca7da94c1e619f12c84fca1a4a369286220a7545a27263982cd27a779e03e3d4"
     },
     "proprietary/vendor/bin/init.qcom.class_core.sh": {
-      "bytes": 7055,
-      "sha256": "fdf84ed982871b51fb4e76471ec661abd7c6a33239184e0a0a61428d90b6d3ba"
+      "bytes": 6527,
+      "sha256": "2d52acb42f16c101fa6657218fa61115ef9601612d8a3474e7c603dca03b6fee"
     },
     "proprietary/vendor/bin/init.qcom.early_boot.sh": {
-      "bytes": 19258,
-      "sha256": "29655113a607b22fd94fe190fb4b2e8eaf727d32fa42ba29fb2145a831bafaa6"
+      "bytes": 19481,
+      "sha256": "e10de50a33db1ee032105989e217a097b18b1da16d438fc7a3eb830ed58a303f"
     },
     "proprietary/vendor/bin/init.qcom.post_boot.sh": {
-      "bytes": 278066,
-      "sha256": "7d1a93e4fedf24d35260db90b3779649a7a02a72b40fb77f90d773954705a369"
+      "bytes": 278174,
+      "sha256": "1e8ef9c99edc09416b26318f47dd81e810e3e43e67bd34a8196cb6f0ec333b01"
     },
     "proprietary/vendor/bin/init.qcom.sdio.sh": {
       "bytes": 2769,
       "sha256": "58deb99a4cc4cba3266cda8e766471335a9d8bc6c055fdf2b603e28210137da5"
     },
     "proprietary/vendor/bin/init.qcom.sensors.sh": {
-      "bytes": 1891,
-      "sha256": "a60c0c7305c99e375bee0068e08231c861e70af2be24824762feb95cf27c723d"
+      "bytes": 2030,
+      "sha256": "cbacdc630eca50de3f77704dab5900ef1aef13c3078f3587d9067fe4bd377c9d"
     },
     "proprietary/vendor/bin/init.qcom.sh": {
-      "bytes": 17719,
-      "sha256": "daff0dc656842a3f9bd31d668180111e13106161d796129018528f0e8188c4b5"
+      "bytes": 18739,
+      "sha256": "302455d1654af806b1f8a3fa8b76d0bb8a63ce129c0e5f560aa224e6de9316df"
     },
     "proprietary/vendor/bin/init.qcom.usb.sh": {
-      "bytes": 7196,
-      "sha256": "c0c16159ea1bdc0b54c8b8535ce189dae9c8ebc1cec3387f3f37f935c6182a8b"
+      "bytes": 6639,
+      "sha256": "1ab5aa17cef7c146eca5f609e06832ac67015a1e1a93256921e4bdcec615e90e"
     },
     "proprietary/vendor/bin/init.qcrild.sh": {
       "bytes": 3530,
@@ -13642,8 +13643,8 @@
       "sha256": "158ad7eb16090dd3695d711d86a2008bad0c0bcc59d738f7e1d930e5f5e77dbf"
     },
     "proprietary/vendor/bin/ufs_ffu.sh": {
-      "bytes": 97,
-      "sha256": "620b866c4a08a8fe25960ef44599f54b02737516d851638f7e5f5f98f87b8bcc"
+      "bytes": 146,
+      "sha256": "35be2761301470324fad2e11b758b23927a4c8ada48b38244eac869afa9babb0"
     },
     "proprietary/vendor/bin/ufs_utils": {
       "bytes": 152856,
@@ -15494,8 +15495,8 @@
       "sha256": "54d71f9a889d501882cbff77e40d44dcda4c1aae70aa9c1e3a55f024a3b50323"
     },
     "proprietary/vendor/etc/init/hw/init.batterysecret.rc": {
-      "bytes": 3814,
-      "sha256": "ad8a9b3d406a715eed495af50e4fe11eb3a2ae076943fdee40c0b4944cc770c6"
+      "bytes": 2340,
+      "sha256": "c380f50d4b2a27c04e166c5284b03d250ff7f4346af990acd2521a51feb66333"
     },
     "proprietary/vendor/etc/init/hw/init.mi_thermald.rc": {
       "bytes": 277,
@@ -15506,16 +15507,16 @@
       "sha256": "837116933bc42312c05c751c0088883bf0002bd78e98ce4f77c9496660f57fcc"
     },
     "proprietary/vendor/etc/init/hw/init.qcom.rc": {
-      "bytes": 35055,
-      "sha256": "ee9e01aa819995834058baa84b57db036de09d6b343cb7dece887f6493b9b362"
+      "bytes": 34017,
+      "sha256": "e3f5bb55f75fe1b8fb762c6194952d672fbf5fa42ecffc4696488f0ad4a2b55c"
     },
     "proprietary/vendor/etc/init/hw/init.qcom.usb.rc": {
-      "bytes": 114531,
-      "sha256": "e04acadb855cb96c84d13a21d387af87991d0c91909c317d5e7650f588480bee"
+      "bytes": 114277,
+      "sha256": "3c61329dc1fc5fdf69feb792efc767a9ed0a4dc3adc6ac41b89468b7a291c97b"
     },
     "proprietary/vendor/etc/init/hw/init.qti.kernel.rc": {
-      "bytes": 9666,
-      "sha256": "4e14b953963cb4177a65d65f27858227369ff8e73abe63995db942f7b02d0299"
+      "bytes": 9313,
+      "sha256": "b05da92bcc98147509d48a5d91cd0aa90f2e0aca6c446aa074bc837857e68822"
     },
     "proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc": {
       "bytes": 376,
@@ -15526,8 +15527,8 @@
       "sha256": "a2fb0a6e80ec8f8eeff93de9f173d516b1af39ecb7739b117b3433d584e9d11c"
     },
     "proprietary/vendor/etc/init/hw/init.target.rc": {
-      "bytes": 44368,
-      "sha256": "9aa7c744cc7d7ae1ff92f9e9c2589fc24b169f10eb3bc6b672b3970b28b35758"
+      "bytes": 44111,
+      "sha256": "1ffa16932318021817530530162181d7252de00e35c5cc80e8ca10aa3451d665"
     },
     "proprietary/vendor/etc/init/hypsys_vendor.rc": {
       "bytes": 4137,
@@ -15550,24 +15551,24 @@
       "sha256": "2558fdd6b3b6f8fbc2a21f354a404fcad5edb6f41b70dc0ee8b9bbe7bc569996"
     },
     "proprietary/vendor/etc/init/init.qccvendor.rc": {
-      "bytes": 879,
-      "sha256": "9f2a4812f8d81868b3844474d099e41a987dff949a8fcbc83a72321c20fd3fb4"
+      "bytes": 900,
+      "sha256": "c548a9638f459d72fff542638c9ecd81f91ab746dc65445029e525f9a6aa91b8"
     },
     "proprietary/vendor/etc/init/init.qlm-service.rc": {
       "bytes": 350,
       "sha256": "e93770bb99c9ecd74b26e743f2112c9805ee5afcefc4fdd14afc15cde8dea02b"
     },
     "proprietary/vendor/etc/init/init.qti.display_boot.rc": {
-      "bytes": 1741,
-      "sha256": "21de1b2cbdb30bfb976d53f2e7c2fb165ba105731a8a7152068f0a608490cefa"
+      "bytes": 1820,
+      "sha256": "e90c9458cca29ae16a68b0c972bb35d22f40da5bac73e7b1d987ae8a05f9bf7b"
     },
     "proprietary/vendor/etc/init/init.qti.fm.rc": {
       "bytes": 120,
       "sha256": "bf511ef4ca873230aa8049a30527509d48fce3cc6b10b1add1e1c687e3f57872"
     },
     "proprietary/vendor/etc/init/init.qti.media.rc": {
-      "bytes": 2420,
-      "sha256": "1f4692a1e0666e5cd68fa2b43bc6a07fbde34625e415b3269736848f9ab9a5d8"
+      "bytes": 2509,
+      "sha256": "e8cefb86655520547f1305c3264adde84ff4fdc219d3b66f28029c6b56a42641"
     },
     "proprietary/vendor/etc/init/init.qti.qcv.rc": {
       "bytes": 822,
@@ -15678,8 +15679,8 @@
       "sha256": "07be43b617a433a6b08472ab9ab5ceee0cbe89a91d8043f5fcc63eeb5aab029a"
     },
     "proprietary/vendor/etc/init/qvrd_vndr.rc": {
-      "bytes": 835,
-      "sha256": "aab2fba32d092170d29bc81e8f04875a5855e95ab3630b61d38280296fd173aa"
+      "bytes": 1056,
+      "sha256": "e831fb41b14d433ebfbd270cd0bd6b36752f98bdbd642581756f212b02dc8aa8"
     },
     "proprietary/vendor/etc/init/qwesd.rc": {
       "bytes": 372,
@@ -15742,8 +15743,8 @@
       "sha256": "a9d1a4f3ea202e27c9f495cf7226c9e44354035a3a001fd497c5aa89f9be2815"
     },
     "proprietary/vendor/etc/init/vendor.qti.MemHal-service.rc": {
-      "bytes": 589,
-      "sha256": "ea9c0621ef9db39a40dd746bd750324eb061c24d4b30e4175e83c30ac36ce9cf"
+      "bytes": 605,
+      "sha256": "32127a6032091daf1bdf81e326547c127a766cce03c3da082da3125ac76289f0"
     },
     "proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc": {
       "bytes": 1797,
@@ -15758,8 +15759,8 @@
       "sha256": "2649f1760b30a9cb72c826ed9ba7f30589c751480583681f5317dee9d2970865"
     },
     "proprietary/vendor/etc/init/vendor.qti.diag_userdebug.rc": {
-      "bytes": 11836,
-      "sha256": "66178fd6f7a1784d9f315a358b7396315e927b7bc09e4d833a8599f36aa98918"
+      "bytes": 8753,
+      "sha256": "a662758aad03b15ee8ff13b76a158a63b0c1cbfe5f02c617d7b6791ed6f013ba"
     },
     "proprietary/vendor/etc/init/vendor.qti.hardware.alarm-service.rc": {
       "bytes": 357,
@@ -15770,8 +15771,8 @@
       "sha256": "e6086e6d1e732a9eb9907405e49455bd302da40f479c8a78510bc008351a869d"
     },
     "proprietary/vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc": {
-      "bytes": 432,
-      "sha256": "34fbe689f39aa09d7140f088ee4352917efbe4aa823dbd7341eeca17eae94af4"
+      "bytes": 379,
+      "sha256": "1528a536d96115357ff0da91becfacdc66fa9a75b4be27f813b79114d7144ed8"
     },
     "proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc": {
       "bytes": 469,
@@ -15790,16 +15791,16 @@
       "sha256": "97405cbf9659b56a8839926b9e2ebfa5f65b04c5b72ea91fd255b4f5c1990b15"
     },
     "proprietary/vendor/etc/init/vendor.qti.hardware.minkipcbinder@1.0-service.rc": {
-      "bytes": 364,
-      "sha256": "02ac533db9d5f093a4f476a831846a21d111e88cd163cee72e9cd7a1e586f902"
+      "bytes": 384,
+      "sha256": "79e673b735439bf0f5dfe9e6aabf32aebb3665b6d04741774c1304b66dbde26d"
     },
     "proprietary/vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc": {
-      "bytes": 1519,
-      "sha256": "aeebc7e101a93aadd998704f3a916b43e5309152952222c74dd4f9119a5d8248"
+      "bytes": 1533,
+      "sha256": "275262b1330eafb2bf9d12b9a446525b5130dc0ef7aa9b2371d0646e32f1975c"
     },
     "proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc": {
-      "bytes": 355,
-      "sha256": "ad6c3939dd6b9f7e1e88fe079b1a2b762910fb412cb2de32ed017797c510b9f8"
+      "bytes": 372,
+      "sha256": "337f716bb03a7053ec951ea45f1c967ca76b0b64c5ed3b38c32d9ecc1323ff73"
     },
     "proprietary/vendor/etc/init/vendor.qti.hardware.secureprocessor.rc": {
       "bytes": 263,
@@ -15894,16 +15895,16 @@
       "sha256": "e37e3e914b2a1e0d8bc4f1701a07141f563f0d3fb2b0ccf7999695fcfcc24d69"
     },
     "proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc": {
-      "bytes": 983,
-      "sha256": "851f005f7b13672f33df09ba3040dc55b76a24ba1e43f4ccca62b289679de8a6"
+      "bytes": 873,
+      "sha256": "8855dd2aad7596a3725ab910afd08cada05e475e41cf4d8d4bb5602d32ef4db0"
     },
     "proprietary/vendor/etc/init/vendor.xiaomi.hardware.fbo-service.rc": {
       "bytes": 2743,
       "sha256": "dc395a647cfafdb51d303e114a4591b87b931998d2dda5b345abbcd53270b4f9"
     },
     "proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge-service.rc": {
-      "bytes": 14876,
-      "sha256": "b0ef9e8b29e6064fc585fdd1ce04b7faffb7809b1be88fb54c77f6cfa72a665e"
+      "bytes": 14493,
+      "sha256": "77fe00b73cb457948c05788238ada828118449c5d203d0eee7be816f5896ea1b"
     },
     "proprietary/vendor/etc/init/vendor.xiaomi.hardware.mimd2-service.rc": {
       "bytes": 950,
@@ -15922,8 +15923,8 @@
       "sha256": "df0d264eb4e6f1d477357bc9f224b3e1fd0c1e4a1e6ebef2a29f1412a0c9db71"
     },
     "proprietary/vendor/etc/init/vendor.xiaomi.hardware.uniperf-service.rc": {
-      "bytes": 408,
-      "sha256": "13aafc89eac49dfe792a6f277981f6af599b15e2cbd0845b273b297185171363"
+      "bytes": 425,
+      "sha256": "50bdcc730318d455051f35db6a4069efd4fee4a5f18a2b1c9c5dea4ae94347fe"
     },
     "proprietary/vendor/etc/init/vendor.xiaomi.hardware.videoservice-service.rc": {
       "bytes": 487,
@@ -23117,6 +23118,14 @@
       "bytes": 15294464,
       "sha256": "b70e091f7cd10dd1eeeca020f2bea54c03dd1b731bf29df9ebe7b477877b48da"
     },
+    "boot/vendor_dlkm/lib/modules/goodix_core.ko": {
+      "bytes": 649016,
+      "sha256": "39def24e5eb4441f1bb603683ca93e009ea20175a9e7358034d563459906a620"
+    },
+    "boot/vendor_dlkm/lib/modules/xiaomi_touch.ko": {
+      "bytes": 331896,
+      "sha256": "5177211e054662f91af142d3dd79a0b33b598350353af2c2335d13ca6446dc67"
+    },
     "boot/vendor_dlkm.img": {
       "bytes": 88510464,
       "sha256": "7e854e8c4ff174b9f6cf722e69a2edb8410698152545657f9054468777b5a2e1"
@@ -24972,6 +24981,14 @@
     "firmware/xbl_ramdump.img": {
       "bytes": 946176,
       "sha256": "7a8ac99e43fa57ea887e93e40a3355fba0e384db53d18eeec96481e505232297"
+    },
+    "configs/preinstalled-apps.xml": {
+      "bytes": 489,
+      "sha256": "802b59148e3a4e1acc664fb1ae8c4f9dd97a4fbf16bf5a1ea95aac0b0a3c4da2"
+    },
+    "Xpan/Android.mk": {
+      "bytes": 559,
+      "sha256": "257cbd95d7860ea5ba5afe616a36affa9a6496532c30028b80ca636ef386f9b0"
     }
   }
 }
