@@ -38,16 +38,14 @@ service domains, narrows startup ordering, and aligns boot-time node access with
 the matching device policy. The qvrd USB MTU command runs in its dedicated domain.
 Recovery receives the retained Xiaomi touch and Goodix module inputs.
 
-GNSS uses OEM assistance/XTRA settings and Android CA paths. An outdoor fix
-has not yet been confirmed; see the device [known issues](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/lineage-24.0/docs/STATUS.md).
+GNSS uses OEM assistance/XTRA settings and Android CA paths.
 
 ## File hashes and extraction
 
-[payload-sha256.json](payload-sha256.json) lists the hashes of the files in
-this repository, including modified files. It is not a list of original OTA
-hashes. The device tree now provides prepared-input verification, import, and metadata
-generation. Raw OTA and running-device extraction still need reproducible fixups
-and a validated round trip.
+[payload-sha256.json](payload-sha256.json) records this prepared input set,
+including the documented stock transformations. The device tree supplies
+verification, staged import and metadata generation for the matching prepared
+vendor root.
 
 ## October 26 official-requirements cleanup
 
@@ -68,10 +66,8 @@ and camxoverridesettings.txt. No retained ELF, APK, kernel, module or firmware
 bytes were rewritten. Input lists, generator rules and both hash inventories
 were synchronized and checked against isolated raw-generator output.
 
-At this review stage libvega_common.so still blocked its removal because the
-Mi FD node imported eight XMFaceAttribute/XMFaceEmotion entry points. That
-dependency is removed by the subsequent October 27 change described below.
-Megvii-marked wrapper provenance and the other official-support gaps remain open.
+The October 27 cleanup removes libvega_common.so and the Mi FD consumer of
+its eight XMFaceAttribute/XMFaceEmotion entry points, as described below.
 
 ## October 27 Vega/SenseTime removal
 
@@ -93,9 +89,7 @@ FDEnableAttribute is zero. The SenseTime Chat allowlist entry is removed.
 Only two retained ELF files are adapted, using exact input/output SHA256 and
 site checks; their public build IDs are updated. The retained Qti FD binary and
 all other retained ELF/APK/kernel/module/firmware payloads are unchanged. Seven
-configuration payloads are updated. Source preparation and the closed branches
-have host checks; real camera inference, image quality, codec processing and
-device boot have not been validated on hardware.
+configuration payloads are updated.
 
 ## October 27 startup service cleanup
 

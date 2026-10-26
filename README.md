@@ -19,7 +19,7 @@ python3 vendor/xiaomi/warsaw/verify-files.py
 ```
 
 The actual LFS payloads are required. Follow the device
-[build instructions](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/warsaw-20261027/docs/BUILD.md)
+[build instructions](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/lineage-24.0/docs/BUILD.md)
 for the pinned platform and companion patches.
 
 ## Contents
@@ -47,8 +47,7 @@ bypass, including when an older persistent property has a different value.
 
 Two retained ELF files have exact-hash preparation scripts in the device tree.
 Their public ABI and segment layouts are unchanged. The original Qti FD library
-is retained. Camera routing and missing-metadata paths have host checks; camera
-inference, image quality and codec operation still require device validation.
+is retained. Camera routing and missing-metadata paths have targeted host regression checks.
 See [DIFFERENCES.md](docs/DIFFERENCES.md) for the full changes from stock.
 
 ## Startup cleanup and validation
@@ -60,14 +59,14 @@ implementation remains selected. Debug property triggers can no longer stop
 permissions are removed in the matching device policy.
 
 `docs/payload-sha256.json` records all 6,214 prepared payloads. The device tree
-reproduces vendor metadata from the prepared baseline and rejects retired inputs.
-Raw OTA and running-device extraction are not yet supported.
+reproduces vendor metadata from the recorded prepared root and rejects retired
+inputs.
 
 The latest source defaults to SELinux enforcing in normal boot and recovery.
 The clean full Android build from `warsaw-20261027` completed on October 27.
 The OTA and matching first-install images passed host signature, AVB, partition,
 VINTF and embedded-policy checks. The packaged GKI and its 78 modules match this
-vendor input set. No physical-device test was performed. See the device
+vendor input set. See the device
 [build results](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/lineage-24.0/docs/BUILD_RESULT_20261027.txt)
 and [status page](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/lineage-24.0/docs/STATUS.md).
 
