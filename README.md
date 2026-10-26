@@ -64,10 +64,12 @@ reproduces vendor metadata from the prepared baseline and rejects retired inputs
 Raw OTA and running-device extraction are not yet supported.
 
 The latest source defaults to SELinux enforcing in normal boot and recovery.
-No Android/kernel build, APK/image/OTA packaging, or device test was performed
-for the October 27 source update. The device
-[status page](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/warsaw-20261027/docs/STATUS.md)
-lists the remaining work.
+The clean full Android build from `warsaw-20261027` completed on October 27.
+The OTA and matching first-install images passed host signature, AVB, partition,
+VINTF and embedded-policy checks. The packaged GKI and its 78 modules match this
+vendor input set. No physical-device test was performed. See the device
+[build results](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/lineage-24.0/docs/BUILD_RESULT_20261027.txt)
+and [status page](https://github.com/lrqtech/android_device_xiaomi_warsaw_lineage24/blob/lineage-24.0/docs/STATUS.md).
 
 ## Licensing
 
