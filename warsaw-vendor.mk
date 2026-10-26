@@ -91,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/IntellFocus_track_backbone.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/IntellFocus_track_backbone.dlc \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/IntellFocus_track_head.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/IntellFocus_track_head.dlc \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/NGT_compressed.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/NGT_compressed.bin \
-    vendor/xiaomi/warsaw/proprietary/odm/etc/camera/SensePR_scene_configs.json:$(TARGET_COPY_OUT_ODM)/etc/camera/SensePR_scene_configs.json \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/af_class_all.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/af_class_all.dlc \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/af_class_human.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/af_class_human.dlc \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/af_classify.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/af_classify.dlc \
@@ -159,11 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/dualcam_predepth_params_pro.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_predepth_params_pro.json \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/eclipse.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/eclipse.bin \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/enhance_motiontuning.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/enhance_motiontuning.xml \
-    vendor/xiaomi/warsaw/proprietary/odm/etc/camera/facefocus_models/Vega_Attribute_Face_RGB_qnn2.24.15_int8_3.2.6_arm64.model:$(TARGET_COPY_OUT_ODM)/etc/camera/facefocus_models/Vega_Attribute_Face_RGB_qnn2.24.15_int8_3.2.6_arm64.model \
-    vendor/xiaomi/warsaw/proprietary/odm/etc/camera/facefocus_models/Vega_Detect.model:$(TARGET_COPY_OUT_ODM)/etc/camera/facefocus_models/Vega_Detect.model \
-    vendor/xiaomi/warsaw/proprietary/odm/etc/camera/facefocus_models/Vega_Detect_Sculpture.model:$(TARGET_COPY_OUT_ODM)/etc/camera/facefocus_models/Vega_Detect_Sculpture.model \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/facesr.minn:$(TARGET_COPY_OUT_ODM)/etc/camera/facesr.minn \
-    vendor/xiaomi/warsaw/proprietary/odm/etc/camera/facesr_ff_v6.0.25_qcom8750_rQsQ_hd@nb_20250311YuvQnn2.24.19x64Q35.3_20260318.model:$(TARGET_COPY_OUT_ODM)/etc/camera/facesr_ff_v6.0.25_qcom8750_rQsQ_hd@nb_20250311YuvQnn2.24.19x64Q35.3_20260318.model \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/fd.minn:$(TARGET_COPY_OUT_ODM)/etc/camera/fd.minn \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/fs_detect_1st.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/fs_detect_1st.dlc \
     vendor/xiaomi/warsaw/proprietary/odm/etc/camera/human_det_quant_npu_320.minn:$(TARGET_COPY_OUT_ODM)/etc/camera/human_det_quant_npu_320.minn \
@@ -2847,13 +2842,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init.qlm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qlm-service.rc \
-    vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init.wallpapercolor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wallpapercolor.rc \
-    vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init_fan_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_fan_service.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/libxiaomi_qcril.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/libxiaomi_qcril.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
@@ -2866,7 +2859,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/qms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qms.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/xiaomi/warsaw/proprietary/vendor/etc/init/qttestservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qttestservice.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/qvrd_vndr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qvrd_vndr.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/slad.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/slad.rc \
@@ -2900,7 +2892,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/vendor.qti.memory.pasrmanager-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.memory.pasrmanager-service.rc \
-    vendor/xiaomi/warsaw/proprietary/vendor/etc/init/vendor.qti.psiclient@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.psiclient@1.0-service.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/vendor.qti.qspmhal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal-service.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/xiaomi/warsaw/proprietary/vendor/etc/init/vendor.qti.syshealthmon-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.syshealthmon-service.rc \
@@ -3839,7 +3830,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_platform \
     libqcodec2_psfilter \
     libqcodec2_rffilter \
-    libqcodec2_roiencfilter \
     libqcodec2_srfilter \
     libqcodec2_streaminteg_filter \
     libqcodec2_utils \
@@ -3911,7 +3901,6 @@ PRODUCT_PACKAGES += \
     libqtikeymint \
     libqtjsonhelper \
     libqtnodes \
-    libqttestservice \
     libqvr_cam_cdsp_driver_stub \
     libqvrcamera_client.qti \
     libqvrcameraplayback \
@@ -4493,7 +4482,6 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.warsaw_sunny_ov20b40_front_i \
     com.arcsoft.node.videobokeh \
     com.mi.node.aiasd \
-    com.mi.node.fd \
     com.mi.node.miaihighlight \
     com.mi.node.mimovie \
     com.mi.node.mioisverify \
@@ -4619,7 +4607,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.capdepth \
     com.xiaomi.plugin.capdepthrefine \
     com.xiaomi.plugin.depurple \
-    com.xiaomi.plugin.ecdsnapshotdet \
     com.xiaomi.plugin.edof \
     com.xiaomi.plugin.filter \
     com.xiaomi.plugin.frontbokeh \
@@ -4649,7 +4636,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.offlineyuvreprocess \
     com.xiaomi.plugin.offlineyuvsplit \
     com.xiaomi.plugin.pixman \
-    com.xiaomi.plugin.portraitrepair \
     com.xiaomi.plugin.previewldc \
     com.xiaomi.plugin.remosaic \
     com.xiaomi.plugin.sdsr \
@@ -4740,7 +4726,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.immunesystem.hook.mivi \
     com.xiaomi.immunesystem.hook.mtkhal \
     com.xiaomi.messagecenter \
-    com.xiaomi.plugin.ecdengine \
     ese_weaver \
     camera.qcom.sm8750 \
     camera.qcom \
@@ -4859,7 +4844,6 @@ PRODUCT_PACKAGES += \
     libdisplaylog \
     libdither \
     libdynamicelvss \
-    libecdpreproc \
     libecoengine \
     libeyecare \
     libfastmessage \
@@ -4959,7 +4943,6 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libpaperMode \
-    libportrait_repair_qnn \
     libpostprocinfo \
     libproj_qmot_tracker \
     libproj_sot \
@@ -4985,7 +4968,6 @@ PRODUCT_PACKAGES += \
     libtouchreport_hal \
     libtouchreport_sensor \
     libtruetone \
-    libvega_common \
     libvideoml \
     libvideomode \
     libvsim \
@@ -5112,7 +5094,6 @@ PRODUCT_PACKAGES += \
     dcc-script-tuna \
     dcc-script \
     ddr_freq \
-    debug-diag \
     diag-router \
     diag_mdlog \
     diagcommd \
@@ -5122,8 +5103,6 @@ PRODUCT_PACKAGES += \
     dspservice \
     edgnss-daemon \
     embmsslServer \
-    exec-debug-diag \
-    fan_service \
     feature_enabler_client \
     ffu \
     hexlpservice \
@@ -5273,7 +5252,6 @@ PRODUCT_PACKAGES += \
     qsh_wifi_test \
     qt-service \
     qti \
-    qttestservice \
     qvrcameratest \
     qwesd \
     rmt_storage \

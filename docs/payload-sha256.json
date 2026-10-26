@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "source_set": "warsaw-20261024",
+  "source_set": "warsaw-20261024 + recorded offline repairs through 20261026",
   "files": {
     "proprietary/odm/bin/audio-factory-test": {
       "bytes": 51672,
@@ -48,7 +48,7 @@
     },
     "proprietary/odm/bin/hw/vendor.qti.camera.provider-service_64": {
       "bytes": 103120,
-      "sha256": "296252298a85204a7f4dbbd9c7aa2fd0e0c8e4c395e64a57ded8039029e3f38e"
+      "sha256": "31e7905c101ddaffc0fdbcf6e88425b85a82ea750f3e7e4ad369ab4d59f28528"
     },
     "proprietary/odm/bin/hw/vendor.qti.hardware.lights.service": {
       "bytes": 52560,
@@ -120,7 +120,7 @@
     },
     "proprietary/odm/bin/tee-supplicant": {
       "bytes": 68656,
-      "sha256": "afeb3881659771428692b259c64249c573370b83bac90f06007e2a278a9ffb62"
+      "sha256": "59069d394272caa2f9f3cd1fc0eedd512a61378131de40981c47dac67ae65fc9"
     },
     "proprietary/odm/bin/test-nusensors": {
       "bytes": 86208,
@@ -522,10 +522,6 @@
       "bytes": 994440,
       "sha256": "b952a164ce88e31ec5435cd9ec6ef2cf62ab56b8163dcc2d5d76afa1b8d65dfd"
     },
-    "proprietary/odm/etc/camera/SensePR_scene_configs.json": {
-      "bytes": 17868,
-      "sha256": "cd220c91200502d5469550744dbba0f7932ea5d2b9eda4516ea2d5d92319fa4b"
-    },
     "proprietary/odm/etc/camera/af_class_all.dlc": {
       "bytes": 10130076,
       "sha256": "ef880404bea968108d1e68fa8a9e6ba848e8a1fce1023d8521915690c3d5e470"
@@ -723,8 +719,8 @@
       "sha256": "05670530adb72a15118457e2b33b20cae84f9361e0499c7771d8c6c828025204"
     },
     "proprietary/odm/etc/camera/camxoverridesettings.txt": {
-      "bytes": 18664,
-      "sha256": "aa4ae0e35b9eb878ce98445fbe162b9c3fe9820e368ffb28756542d8dade940b"
+      "bytes": 18714,
+      "sha256": "15740a3b271c573c12cf274d1f2c5b7ee7d00ba9a6665d503453336e6ce6bc60"
     },
     "proprietary/odm/etc/camera/com.xiaomi.dcal.w_07.u_01.golden": {
       "bytes": 4096,
@@ -794,25 +790,9 @@
       "bytes": 96492,
       "sha256": "a43a6d1e4872853dc568f557abd7b54c96054d86f08b688c84fc631b6038ac8f"
     },
-    "proprietary/odm/etc/camera/facefocus_models/Vega_Attribute_Face_RGB_qnn2.24.15_int8_3.2.6_arm64.model": {
-      "bytes": 1157392,
-      "sha256": "44c93f73e199a0c9f552444cf536f40bf7d96c5be95688bb63bb79260317b28d"
-    },
-    "proprietary/odm/etc/camera/facefocus_models/Vega_Detect.model": {
-      "bytes": 3379472,
-      "sha256": "811057fdd67175f43f9a01de9220da4dca2d02bb98c98817e289daa6d5e23cbe"
-    },
-    "proprietary/odm/etc/camera/facefocus_models/Vega_Detect_Sculpture.model": {
-      "bytes": 450832,
-      "sha256": "32690fbd777de6c2a5c21762e8c99b43673159896828c1d3b6b2a0f69d16dd6f"
-    },
     "proprietary/odm/etc/camera/facesr.minn": {
       "bytes": 19586398,
       "sha256": "099fd97e61aa9010876f9eefb3f63f07c841cd650605c414dfef21c6b438102e"
-    },
-    "proprietary/odm/etc/camera/facesr_ff_v6.0.25_qcom8750_rQsQ_hd@nb_20250311YuvQnn2.24.19x64Q35.3_20260318.model": {
-      "bytes": 23720212,
-      "sha256": "5764f9eb89c0f7a11135b5bf923b8a75c1fa479be7cba4a522500048d73e72a5"
     },
     "proprietary/odm/etc/camera/fd.minn": {
       "bytes": 468269,
@@ -4431,8 +4411,8 @@
       "sha256": "4785c967476639fd06aeb83dd5a7f1d95c145e3fec59e230571756f595fd7f50"
     },
     "proprietary/odm/etc/camera/xiaomi/EcoInfoDynamic.json": {
-      "bytes": 31455,
-      "sha256": "2a422e15ca0e74ac04248d31c78143e3500e7c490d5b61b9144bf1804e320129"
+      "bytes": 31099,
+      "sha256": "4b291cce355b2075548bef59ece5453383ec6286573b04d93d9af4e3e31d442b"
     },
     "proprietary/odm/etc/camera/xiaomi/EcoInfoGesture.json": {
       "bytes": 4532,
@@ -4467,8 +4447,8 @@
       "sha256": "17b0ba0b4bb13bc0905c747e4d3e3603ee9a996d537df20644d5c25ad007c5dc"
     },
     "proprietary/odm/etc/camera/xiaomi/dualbokehsnapshot.json": {
-      "bytes": 42018,
-      "sha256": "5c307445f42669fcfbabde243a37f89cca04350a5cc78f20fc7fa9d77112b2da"
+      "bytes": 40731,
+      "sha256": "7396ab6cc690d1f31208959ba41970bbbd24c31c4911082f055291f6a8cd4e15"
     },
     "proprietary/odm/etc/camera/xiaomi/ecoMetaExtension.json": {
       "bytes": 24617,
@@ -4499,8 +4479,8 @@
       "sha256": "374539a3d7cf06233a6715c788b28d6e57757a0306025b5fbdadbb70f88b1f32"
     },
     "proprietary/odm/etc/camera/xiaomi/frontbokehsnapshot.json": {
-      "bytes": 28344,
-      "sha256": "e69ddf59e475328cb909b0625c516a00b08088cf561022e7af21968e73a686af"
+      "bytes": 27702,
+      "sha256": "3e99863885729a60ea251609f93080d7202277f7136066db3681b05b31b01b5d"
     },
     "proprietary/odm/etc/camera/xiaomi/frontdualviewvideo.json": {
       "bytes": 1998,
@@ -4515,12 +4495,12 @@
       "sha256": "5a5c8157485a751320e9e793326a1317030ea61156f3c8834536e53384c3e68d"
     },
     "proprietary/odm/etc/camera/xiaomi/frontsinglesnapshot.json": {
-      "bytes": 28546,
-      "sha256": "f298f327b7658f78b85b043caffd59aee0df50c8f732d1478048ab61a5b8c90e"
+      "bytes": 27748,
+      "sha256": "279abb4dfeb6aef12d34cdaf17c3e5374402599498a09216b2d14d3c0cb67424"
     },
     "proprietary/odm/etc/camera/xiaomi/frontsupernightsnapshot.json": {
-      "bytes": 20475,
-      "sha256": "e8ed6f603731cd88ce721234c9d76acc2efc314956d913a46757d3216aaf2efd"
+      "bytes": 19677,
+      "sha256": "5d72ed066890b895d8e0be819eaab78835317e0dcff3457b46fb3d9d9feb5526"
     },
     "proprietary/odm/etc/camera/xiaomi/idcardsnapshot.json": {
       "bytes": 11525,
@@ -4591,8 +4571,8 @@
       "sha256": "56999bd643b251b03a8a63a5d098520bd10fd9313c80cef7b1e89558ed5086e8"
     },
     "proprietary/odm/etc/camera/xiaomi/preanchorallinonesatsnapshot.json": {
-      "bytes": 1595,
-      "sha256": "7be0012b21d20f5fb6cad5c51bc7c66d95ddc03c5af7886673a6a9554736b5ee"
+      "bytes": 1003,
+      "sha256": "e8d3ba197905d9118c412c106eec0d5ef4bc23db6ae65efa44f0eaea9f2ae016"
     },
     "proprietary/odm/etc/camera/xiaomi/preanchormfnrsatsnapshot.json": {
       "bytes": 993,
@@ -4603,8 +4583,8 @@
       "sha256": "d83f15c1554fde3743aa90500deb44e182b3686a566cefa4e45c6b8401e43495"
     },
     "proprietary/odm/etc/camera/xiaomi/rearsupernightsnapshot.json": {
-      "bytes": 23865,
-      "sha256": "c3238bbe4082a2d638a38db0302797aa8e52b3cf795308e5801dacd186a9bc53"
+      "bytes": 23063,
+      "sha256": "ec5a3f9cbdb5220359045ddb35c53d8aacbf903cbea36251711a6efbca04cf5f"
     },
     "proprietary/odm/etc/camera/xiaomi/satburstsnapshot.json": {
       "bytes": 2094,
@@ -4619,8 +4599,8 @@
       "sha256": "3e3954febb6903875fe4d620ca0408288c2c89885ab66376dfdafa89d12cbe91"
     },
     "proprietary/odm/etc/camera/xiaomi/satsnapshot.json": {
-      "bytes": 46065,
-      "sha256": "2060165f3897e4013d36f9b99a49e9fc2c8e20dbd3d4a1088dcca7b03e10ede9"
+      "bytes": 44185,
+      "sha256": "b688684f910675c413cc03f3de787c75e8fd6a042f5510569802b6c172b420f6"
     },
     "proprietary/odm/etc/camera/xiaomi/sdksnapshot.json": {
       "bytes": 1857,
@@ -5527,8 +5507,8 @@
       "sha256": "f5c9ce940be84b608e00f7ae86d8c63464b9e7cff83576befd68a11cabeb5de8"
     },
     "proprietary/odm/etc/init/vendor.qti.camera.provider-service_64.rc": {
-      "bytes": 1975,
-      "sha256": "616cc0d88bc514b241287ff58b9a8b42ffb2afbd3199ce22212a81ec9e18cd14"
+      "bytes": 2131,
+      "sha256": "0ec6c65c5a2961cacf186eb2efaa4d64ca6619e854adbc11734f95a8408a1d53"
     },
     "proprietary/odm/etc/init/vendor.qti.hardware.lights.service.rc": {
       "bytes": 979,
@@ -10210,10 +10190,6 @@
       "bytes": 633400,
       "sha256": "134bcd7431727a0c0cf8589a18b391a27f08f9928c7e75bf943309eba6661de9"
     },
-    "proprietary/odm/lib64/camera/components/com.mi.node.fd.so": {
-      "bytes": 985712,
-      "sha256": "d0003e8af3e5c71f50a226d4a80f0a3ac30a79b415ea69578a03b283a1c8bb4f"
-    },
     "proprietary/odm/lib64/camera/components/com.mi.node.miaihighlight.so": {
       "bytes": 152520,
       "sha256": "b3e9098c6c0f980b53081098400512ee33346d1d6e80db823014f7f9280984f9"
@@ -10668,7 +10644,7 @@
     },
     "proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.anchor.so": {
       "bytes": 283216,
-      "sha256": "2338fdb5fbeeb0707522f718688720c6e09b9209fc03d546f96312c02635975a"
+      "sha256": "84415ac46aeec13ef4339ea981f7612836904f6247e2e0b0cfb53a6860091767"
     },
     "proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.arcbeautydeformation.so": {
       "bytes": 102024,
@@ -10713,10 +10689,6 @@
     "proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.depurple.so": {
       "bytes": 118440,
       "sha256": "2633067920a7a6830e116f0dfff6428fe182a2ec67c81fb9c6ad276c5dceb5f6"
-    },
-    "proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.ecdsnapshotdet.so": {
-      "bytes": 85704,
-      "sha256": "09902bf485bb31281339d768998bcf9f262ee7bd486908ac7c946df8681f44f4"
     },
     "proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.edof.so": {
       "bytes": 102160,
@@ -10833,10 +10805,6 @@
     "proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.pixman.so": {
       "bytes": 86128,
       "sha256": "dcc7022cbb193ecfb512a28d2843351717b4098aaa9674c26207d0792faa30bb"
-    },
-    "proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.portraitrepair.so": {
-      "bytes": 253168,
-      "sha256": "57edb697aa0766f6f6f6811827181c69642b29dc20a3a5726b1037abeee79d5d"
     },
     "proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.previewldc.so": {
       "bytes": 102048,
@@ -10956,7 +10924,7 @@
     },
     "proprietary/odm/lib64/com.qti.chiusecaseselector.so": {
       "bytes": 1693848,
-      "sha256": "92301da6ecac778b7ea0e373b943edcd757d46c369dd9ea328fc565c64dc197f"
+      "sha256": "ad3d182f7ea15a032340013a51159badf6bed35343a53fa52b9062df00075535"
     },
     "proprietary/odm/lib64/com.qti.feature2.afbrckt.so": {
       "bytes": 513520,
@@ -11198,10 +11166,6 @@
       "bytes": 52432,
       "sha256": "03b4e6927d198cc4f61f790b4ddd205a3e6c609c8e19d37d68121f36936050c7"
     },
-    "proprietary/odm/lib64/com.xiaomi.plugin.ecdengine.so": {
-      "bytes": 254584,
-      "sha256": "e6909c7f29d98a225ba21089fbe9820351a625d0cfd851d2191a24292b5fdedd"
-    },
     "proprietary/odm/lib64/ese_weaver.so": {
       "bytes": 68656,
       "sha256": "cca712127ad5687bb0f97e8aaa6aac4497d9d0a7bc0c46710df71d9436ca0456"
@@ -11220,7 +11184,7 @@
     },
     "proprietary/odm/lib64/hw/com.qti.chi.override.so": {
       "bytes": 7327128,
-      "sha256": "d8a8003f7befbd8c039faed19933ff1fd596d56e20d7d43294165f1fae087659"
+      "sha256": "f028110ef304650477cbbdaac43ff49eef6e512b2c7c7345c45f40aeb5a48db9"
     },
     "proprietary/odm/lib64/hw/consumerir.qcom.so": {
       "bytes": 51568,
@@ -11572,7 +11536,7 @@
     },
     "proprietary/odm/lib64/libchifeature2.so": {
       "bytes": 7327128,
-      "sha256": "b491ed00aae52917e92b6522ab99909432b0a9069a23d45836ea21245c7c04fa"
+      "sha256": "83bcb5dd46e7bc4cf2b85060af4958a3898b34dc4c56c817d2d2d9be8f240778"
     },
     "proprietary/odm/lib64/libchilog.so": {
       "bytes": 51792,
@@ -11673,10 +11637,6 @@
     "proprietary/odm/lib64/libdynamicelvss.so": {
       "bytes": 85000,
       "sha256": "532d411cdde60ed494bb397c787d0e22ed503feca0388f66b7b7d829cdaa8f81"
-    },
-    "proprietary/odm/lib64/libecdpreproc.so": {
-      "bytes": 2705576,
-      "sha256": "43511763b770e053b967c3fd0b8522f43b083195b5086708153c8dbdab7f15cf"
     },
     "proprietary/odm/lib64/libecoengine.so": {
       "bytes": 452440,
@@ -11950,10 +11910,6 @@
       "bytes": 52056,
       "sha256": "2dddb97167f1980e44146cbb55b18fdce8d634247dd379a520f2547a5f38d4f5"
     },
-    "proprietary/odm/lib64/libmiface.so": {
-      "bytes": 339096,
-      "sha256": "75c5bcf19a5f8464f606e00518ff5e55b3e0bd043f029c7abc6355c5ea80cbd2"
-    },
     "proprietary/odm/lib64/libmiface_warsaw_face.so": {
       "bytes": 475377,
       "sha256": "012bf678ba76196f5c28bea9ea2bd1ce8d86c8d7d6aea0a67611a07f5af1fc73"
@@ -12086,10 +12042,6 @@
       "bytes": 68560,
       "sha256": "de4d34c704759986ded890c9e3a587c0b5e0202a0bb798b9d401ec471eb61f97"
     },
-    "proprietary/odm/lib64/libportrait_repair_qnn.so": {
-      "bytes": 14589128,
-      "sha256": "d3de8258ff689a4b9b7887c9418e7be6893083c486bf416ac3d9a61b9672bf77"
-    },
     "proprietary/odm/lib64/libpostprocinfo.so": {
       "bytes": 101784,
       "sha256": "8a20df09e969f2f45fc4fced1ce7dfa9f55b0189d275e395a396a33654160528"
@@ -12201,10 +12153,6 @@
     "proprietary/odm/lib64/libtruetone.so": {
       "bytes": 118088,
       "sha256": "b3704f60f1c504358b0481421259e04e738bea3e95c3650f5a4139ec6423e6fc"
-    },
-    "proprietary/odm/lib64/libvega_common.so": {
-      "bytes": 23149216,
-      "sha256": "d0686bc79795f808955e6898764960be35299538e514788ce6dcfd5ae842e633"
     },
     "proprietary/odm/lib64/libvideoml.so": {
       "bytes": 51016,
@@ -12674,10 +12622,6 @@
       "bytes": 66634,
       "sha256": "44c74763d3f8c6d808df5477b004a56974a7d0990f1475e0182a9356794ccb3a"
     },
-    "proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so": {
-      "bytes": 269872,
-      "sha256": "05739c941200c348698e44bf4e424413374a741a5bf812893bead275736a1758"
-    },
     "proprietary/system_ext/lib64/lib-imsvideocodec.so": {
       "bytes": 167192,
       "sha256": "84acbfe642727dcd94db858f0f325787941b41423e8cffb5cb39c8ccf1634b41"
@@ -12910,10 +12854,6 @@
       "bytes": 51648,
       "sha256": "673c921997ba1f93abe006277199d1278f86c3a1712d0e668f4b313077a1bd06"
     },
-    "proprietary/vendor/bin/debug-diag": {
-      "bytes": 51752,
-      "sha256": "955728bae96c303b18e8bb17a060b41900ca16cf81d57bcf81df042a12f643f1"
-    },
     "proprietary/vendor/bin/diag-router": {
       "bytes": 314992,
       "sha256": "cc8ae108ae527b420d5160adc5341b67fd7a7eca9d67fb42f07d63516a0edc3c"
@@ -12949,14 +12889,6 @@
     "proprietary/vendor/bin/embmsslServer": {
       "bytes": 119872,
       "sha256": "9fff1b7f52a4a6e15a249b109b6a82425d70d42141c9a7a5f1d49fd1cc791f63"
-    },
-    "proprietary/vendor/bin/exec-debug-diag.sh": {
-      "bytes": 980,
-      "sha256": "e6a0fa372750db68085f72dcd27e73d8206a431242335709717d55e546731e0b"
-    },
-    "proprietary/vendor/bin/fan_service": {
-      "bytes": 51752,
-      "sha256": "a42c7e18ab3c57f564041e5f3cdf38f352c91d2416aa41125abe424931f4c21f"
     },
     "proprietary/vendor/bin/feature_enabler_client": {
       "bytes": 85280,
@@ -13351,8 +13283,8 @@
       "sha256": "e10de50a33db1ee032105989e217a097b18b1da16d438fc7a3eb830ed58a303f"
     },
     "proprietary/vendor/bin/init.qcom.post_boot.sh": {
-      "bytes": 278174,
-      "sha256": "1e8ef9c99edc09416b26318f47dd81e810e3e43e67bd34a8196cb6f0ec333b01"
+      "bytes": 277663,
+      "sha256": "8efcca02347ea6eb40b70ab695ec69e975d6dcd167036d1ea0bbbc3c6853c036"
     },
     "proprietary/vendor/bin/init.qcom.sdio.sh": {
       "bytes": 2769,
@@ -13363,20 +13295,20 @@
       "sha256": "cbacdc630eca50de3f77704dab5900ef1aef13c3078f3587d9067fe4bd377c9d"
     },
     "proprietary/vendor/bin/init.qcom.sh": {
-      "bytes": 18739,
-      "sha256": "302455d1654af806b1f8a3fa8b76d0bb8a63ce129c0e5f560aa224e6de9316df"
+      "bytes": 16044,
+      "sha256": "ea42f615a2ffb247bb20e81d1accefb01f74ad48c13f973d08cdf2859e1e43f5"
     },
     "proprietary/vendor/bin/init.qcom.usb.sh": {
       "bytes": 6639,
       "sha256": "1ab5aa17cef7c146eca5f609e06832ac67015a1e1a93256921e4bdcec615e90e"
     },
     "proprietary/vendor/bin/init.qcrild.sh": {
-      "bytes": 3530,
-      "sha256": "638a426cc54472b3b1fbcc34fcb33de024724d35c3c456fe526bb84152535da1"
+      "bytes": 3401,
+      "sha256": "2fe6a83e120090a1965c0698461cd4364578078477ecec905962a4f050daee0d"
     },
     "proprietary/vendor/bin/init.qti.kernel.sh": {
-      "bytes": 2439,
-      "sha256": "d66339639cfe1b1f22cc3ecb59b9699ea563fc7e3115d785cd0bc6ea7c6c6c24"
+      "bytes": 2282,
+      "sha256": "098cb61300936687694eb38aa87451b67af465c44713d3c065db62061931a6c7"
     },
     "proprietary/vendor/bin/init.qti.keymaster.sh": {
       "bytes": 359,
@@ -13554,10 +13486,6 @@
       "bytes": 136904,
       "sha256": "f3136cbd83d02c544628892b6da7c320e83352ddf1b9b45e96e9f0e841dfd5cf"
     },
-    "proprietary/vendor/bin/qttestservice": {
-      "bytes": 51336,
-      "sha256": "49769ccede2d76aeb54edbb42e1944753a9b80eebf0a93f58f87a4974a93e1a1"
-    },
     "proprietary/vendor/bin/qvrcameratest": {
       "bytes": 51856,
       "sha256": "d91386b5ed368e472dd0c57c95fc988aa3964e973cf1f970674ea5a295bfa903"
@@ -13677,10 +13605,6 @@
     "proprietary/vendor/bin/vmmgr": {
       "bytes": 68992,
       "sha256": "52393e0601ef21c29a326ba2213599956accb91c4a0959df48c20e3a8edb290b"
-    },
-    "proprietary/vendor/bin/vndservicemanager": {
-      "bytes": 86984,
-      "sha256": "e1edf97e12496adb93af915a42a681ae0c28e109a785ccb5d96a70674ad53c18"
     },
     "proprietary/vendor/bin/vppcommonlibraryunittest": {
       "bytes": 85296,
@@ -15454,14 +15378,6 @@
       "bytes": 589,
       "sha256": "fd866140f773e860fa628a602072b9923d8e29c8cc54e2432b3fa56175fe9eae"
     },
-    "proprietary/vendor/etc/init/ddr_training.rc": {
-      "bytes": 307,
-      "sha256": "067a6a9c74b29fd1ad9c3b227680330f932de1e7f2b0e9ec5846c163846acec4"
-    },
-    "proprietary/vendor/etc/init/diagcommd.rc": {
-      "bytes": 326,
-      "sha256": "7727fede082e735b7357c525ecbab1771ec8d55879b8e81a2386910b66297a06"
-    },
     "proprietary/vendor/etc/init/dlsc.rc": {
       "bytes": 425,
       "sha256": "dac20842bd5c7439fa8fde206cc5dd35395d6aef2548683fa9ba10f50fc40a94"
@@ -15503,32 +15419,28 @@
       "sha256": "68c94bfebde4a1ab4d7bc14353a7211e0702fd3caba68922d39d7157bdb8950c"
     },
     "proprietary/vendor/etc/init/hw/init.qcom.factory.rc": {
-      "bytes": 9444,
-      "sha256": "837116933bc42312c05c751c0088883bf0002bd78e98ce4f77c9496660f57fcc"
+      "bytes": 9069,
+      "sha256": "6b9e18a82e57c278ef1b58102d561e060a35cc9beae9ab57655ce5e93114a821"
     },
     "proprietary/vendor/etc/init/hw/init.qcom.rc": {
-      "bytes": 34017,
-      "sha256": "e3f5bb55f75fe1b8fb762c6194952d672fbf5fa42ecffc4696488f0ad4a2b55c"
+      "bytes": 29476,
+      "sha256": "7aa63b34ba7ba248e97621422598521611c21624be320259af8f1975171f8aa3"
     },
     "proprietary/vendor/etc/init/hw/init.qcom.usb.rc": {
       "bytes": 114277,
       "sha256": "3c61329dc1fc5fdf69feb792efc767a9ed0a4dc3adc6ac41b89468b7a291c97b"
     },
     "proprietary/vendor/etc/init/hw/init.qti.kernel.rc": {
-      "bytes": 9313,
-      "sha256": "b05da92bcc98147509d48a5d91cd0aa90f2e0aca6c446aa074bc837857e68822"
+      "bytes": 9156,
+      "sha256": "cbe2608c51dc0c2a1209b8a89764d0d42512c80db7723a6f87e6876358353677"
     },
     "proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc": {
       "bytes": 376,
       "sha256": "607a1796113648de1854612e6e67a099ff34b09e20bb6cc8b847b3ee458a8388"
     },
-    "proprietary/vendor/etc/init/hw/init.qti.ufs.rc": {
-      "bytes": 1727,
-      "sha256": "a2fb0a6e80ec8f8eeff93de9f173d516b1af39ecb7739b117b3433d584e9d11c"
-    },
     "proprietary/vendor/etc/init/hw/init.target.rc": {
-      "bytes": 44111,
-      "sha256": "1ffa16932318021817530530162181d7252de00e35c5cc80e8ca10aa3451d665"
+      "bytes": 43398,
+      "sha256": "d26c2a532fd80e424165aba507b1f918e51eacb5460671e4819de642e87bcf54"
     },
     "proprietary/vendor/etc/init/hypsys_vendor.rc": {
       "bytes": 4137,
@@ -15562,10 +15474,6 @@
       "bytes": 1820,
       "sha256": "e90c9458cca29ae16a68b0c972bb35d22f40da5bac73e7b1d987ae8a05f9bf7b"
     },
-    "proprietary/vendor/etc/init/init.qti.fm.rc": {
-      "bytes": 120,
-      "sha256": "bf511ef4ca873230aa8049a30527509d48fce3cc6b10b1add1e1c687e3f57872"
-    },
     "proprietary/vendor/etc/init/init.qti.media.rc": {
       "bytes": 2509,
       "sha256": "e8cefb86655520547f1305c3264adde84ff4fdc219d3b66f28029c6b56a42641"
@@ -15594,10 +15502,6 @@
       "bytes": 198,
       "sha256": "6ac19bbe419754024cc96dba2068a0168561fe5d3ee99c39c16bedfe90702d76"
     },
-    "proprietary/vendor/etc/init/init_fan_service.rc": {
-      "bytes": 384,
-      "sha256": "6ec640d9597d1a1ee15f355294398165af8349e8926e96dc95b2e5d4bc893815"
-    },
     "proprietary/vendor/etc/init/init_thermal-engine-v2.rc": {
       "bytes": 530,
       "sha256": "12d47370fc02e9be9f911c757518d37fa18d66474f251ed02f09c5c288403a4e"
@@ -15611,8 +15515,8 @@
       "sha256": "38aaba79d3598e7cde5d8a8c5296f4374c36ef281874d5672952321eb3007856"
     },
     "proprietary/vendor/etc/init/libxiaomi_qcril.rc": {
-      "bytes": 3054,
-      "sha256": "ab215e675e71dc3b6f776004c72a326a080d43917f24d64392fb41f09333a079"
+      "bytes": 2360,
+      "sha256": "b63ca8db57dccefe66683484fd8c6806c461a65ac150604618f98b91a75d00d0"
     },
     "proprietary/vendor/etc/init/loc-launcher.rc": {
       "bytes": 2574,
@@ -15627,8 +15531,8 @@
       "sha256": "ba3cce7481ca0b1ba2941bba093e46b033e81d8c51479203640cc89a3c6c38cb"
     },
     "proprietary/vendor/etc/init/mi_ric.rc": {
-      "bytes": 2107,
-      "sha256": "ca7560c44d51eb571c21af27db7c367516e2319bf14e2dcbcbe2dc977ae581fd"
+      "bytes": 2847,
+      "sha256": "9f94fd118cf3413670a843091ac2e4745bdb9e99eb53dac3af50eff30e0a2703"
     },
     "proprietary/vendor/etc/init/minetd.rc": {
       "bytes": 320,
@@ -15658,10 +15562,6 @@
       "bytes": 288,
       "sha256": "7e217b9bf00d8afb0acb693f3f672904dba2c8db26e9130875e0b376d0ed7d12"
     },
-    "proprietary/vendor/etc/init/qguard.rc": {
-      "bytes": 138,
-      "sha256": "16fb8568c38d4f2202d66a0964c766dcd16762f0359ce4866abeea495b2badc8"
-    },
     "proprietary/vendor/etc/init/qmipriod.rc": {
       "bytes": 527,
       "sha256": "ef06fc1a5bf99043102ddd0e0e3ecc402776462cb32a3df65139afa019ec0792"
@@ -15673,10 +15573,6 @@
     "proprietary/vendor/etc/init/qseecomd.rc": {
       "bytes": 406,
       "sha256": "86e35abcf3522b31f4faba41a957d8501681472d8e63987d00a020e679b6bd86"
-    },
-    "proprietary/vendor/etc/init/qttestservice.rc": {
-      "bytes": 377,
-      "sha256": "07be43b617a433a6b08472ab9ab5ceee0cbe89a91d8043f5fcc63eeb5aab029a"
     },
     "proprietary/vendor/etc/init/qvrd_vndr.rc": {
       "bytes": 1056,
@@ -15691,8 +15587,8 @@
       "sha256": "e518d2d4f2e0615e6c763dc8e7b3b00bf7e4aaeb1f96fd4b75841973eaecf35b"
     },
     "proprietary/vendor/etc/init/slad.rc": {
-      "bytes": 378,
-      "sha256": "b8ba4850600cb8c8c6f0a1b67947107173226c24ee133445b2edc4c38d371967"
+      "bytes": 426,
+      "sha256": "f1b9910102eb4c541af284c8f40f0750d663c8a3bf0e3021c50b19a0c9586105"
     },
     "proprietary/vendor/etc/init/snapdragon_services.rc": {
       "bytes": 507,
@@ -15709,10 +15605,6 @@
     "proprietary/vendor/etc/init/tlpd.rc": {
       "bytes": 488,
       "sha256": "d2a3153b8c09ab52eb7d48434ecfb439000990309ec4e4afc80a1f5bd64dfd22"
-    },
-    "proprietary/vendor/etc/init/trace.debug-sun.rc": {
-      "bytes": 565,
-      "sha256": "46771bd330cc78db7480f51dc5d07d76c672f1e7b0b8b2cced5babc9be180868"
     },
     "proprietary/vendor/etc/init/trusteduilistener.rc": {
       "bytes": 254,
@@ -15837,10 +15729,6 @@
     "proprietary/vendor/etc/init/vendor.qti.memory.pasrmanager-service.rc": {
       "bytes": 339,
       "sha256": "9f87dcdddb14d8ed7b39aeacc52a9827fd8f7875cb32a1d8501b18df25fcb2f9"
-    },
-    "proprietary/vendor/etc/init/vendor.qti.psiclient@1.0-service.rc": {
-      "bytes": 642,
-      "sha256": "47068fd1e4c94fa7b8a309db98fc0f76efbe15f2ad95fc367f01479c1ddebac8"
     },
     "proprietary/vendor/etc/init/vendor.qti.qspa-service.rc": {
       "bytes": 230,
@@ -16211,12 +16099,12 @@
       "sha256": "2ac2c6834125dfd3669bd5a7b6327ce63c08784f857e144075616059c664b90a"
     },
     "proprietary/vendor/etc/media_sun/video_system_specs.json": {
-      "bytes": 7444,
-      "sha256": "8b6830c0a70c1552ac9e253372eb988293ab366406a8fb3ff56fd70eac174399"
+      "bytes": 7402,
+      "sha256": "ed9e8537efee50a1a803002874189dc51524180c8368da0647492b7c8c398d42"
     },
     "proprietary/vendor/etc/media_tuna_v0/video_system_specs.json": {
-      "bytes": 4832,
-      "sha256": "c70039dd51f8c1db5a44288682bdd7cddb7e85a994a4f3e575e0e481ccd440a5"
+      "bytes": 4790,
+      "sha256": "b0dd5fd642883d57dd9f9c90b1c7fcc0357ac3610cd49b6d899096cd16e4952a"
     },
     "proprietary/vendor/etc/media_tuna_v1/video_system_specs.json": {
       "bytes": 4335,
@@ -18688,7 +18576,7 @@
     },
     "proprietary/vendor/lib64/libcdsprpc.so": {
       "bytes": 497584,
-      "sha256": "ec0cb0b1ee92ec94685d013104fd628d69ece9bc750a84eaf16192050b0bb632"
+      "sha256": "e28f3e425f0beb1f195a701b47b7297ee473e6ae227b06832c466e439d78531f"
     },
     "proprietary/vendor/lib64/libcert_parse.wpa_s.so": {
       "bytes": 251184,
@@ -19910,10 +19798,6 @@
       "bytes": 309784,
       "sha256": "42f71757184b39a07ba7b71493088c3dc9a186c5cb283b6294d50a74d3ff0086"
     },
-    "proprietary/vendor/lib64/libqcodec2_roiencfilter.so": {
-      "bytes": 310704,
-      "sha256": "5c214dff059dc2804927f0dd2f88d150ca7af5626ec577388202cd5d2ac65358"
-    },
     "proprietary/vendor/lib64/libqcodec2_srfilter.so": {
       "bytes": 310368,
       "sha256": "6f277e9607ffd577e475ad9c534157ad45006ad0e8839a5dfc6475877e3e2c38"
@@ -20197,10 +20081,6 @@
     "proprietary/vendor/lib64/libqtnodes.so": {
       "bytes": 624528,
       "sha256": "495864330ccf56d357ee05091dc11c0f19a682674afe309e28c7946f502c20d9"
-    },
-    "proprietary/vendor/lib64/libqttestservice.so": {
-      "bytes": 116864,
-      "sha256": "b99e86271d35d23219d82d8e70153c9db7434bdbd61b3c803d9bf2258339a825"
     },
     "proprietary/vendor/lib64/libqvr_cam_cdsp_driver_stub.so": {
       "bytes": 67552,
@@ -20904,7 +20784,7 @@
     },
     "proprietary/vendor/lib64/libxiaomi_qcril.so": {
       "bytes": 3873736,
-      "sha256": "5faf99bcbd058f3d5dc89951c791fe00c507a120fb47eb95fa8830807d7ac3dc"
+      "sha256": "fb2fd07b935f112f7607c5892a37975f81ab6f86ca03f8b6b147bad146266b58"
     },
     "proprietary/vendor/lib64/libxiaomi_qmi.so": {
       "bytes": 823232,
@@ -22358,14 +22238,6 @@
       "bytes": 8542,
       "sha256": "32c5a39e15294d93ca4e728f10993a1d10b7b50d2233e791ae7ab78c77ebf492"
     },
-    "boot/Image": {
-      "bytes": 36801024,
-      "sha256": "3ccbdb1b4bd1c8610b4d6fd987ea9247ca95b43c0ddd21d3e51de771607bad24"
-    },
-    "boot/boot.img": {
-      "bytes": 100663296,
-      "sha256": "00a84b3a7bc58c435f1f83803bd7ce3c627035850a7c7ed99583927ecd896d99"
-    },
     "boot/dtb/warsaw.dtb": {
       "bytes": 4113304,
       "sha256": "fa10090290dddf181d060595dc05001952364e20e518bd4bd566c3a13831a83f"
@@ -22376,167 +22248,167 @@
     },
     "boot/gki-no-kunit/Image": {
       "bytes": 36801024,
-      "sha256": "b6ef8d3fc7122e02a66f21337c6adde61e3350ebeaf6862713aaeba234d3a512"
+      "sha256": "df170a396bae78b5d77aa5c03ff205d91d6216f67b714382024a5fb465ccdf8a"
     },
     "boot/gki-no-kunit/kernel.config": {
       "bytes": 211066,
       "sha256": "5fc72b8c3948c8795f2976655965326d429f69ce55174305d1ede0330b97be90"
     },
     "boot/gki-no-kunit/manifest.json": {
-      "bytes": 26696,
-      "sha256": "dce7b3fbec7a63ef2b7f06fe730c82131cd17058fb4107f5e04d1e41311ded28"
+      "bytes": 26980,
+      "sha256": "217aaf05dc77d758e2bbff8614345aebb8dcd71b3a20ea8ee5c623ab802e8319"
     },
     "boot/gki-no-kunit/signing-key.x509": {
       "bytes": 1357,
-      "sha256": "aa1353d49f1e507dfe5e7855736392e5cab72b9f522cb778698faf0b1a2c74dc"
+      "sha256": "5e7a49270fe4f18b6ae039da2ea5ba471587ca838dd3d5f9988f04aab03509ea"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/6lowpan.ko": {
       "bytes": 43897,
-      "sha256": "a4d1fb65f1dac8d812abfb4574382c9fa116f09fd22c6878fd3ac1434823c006"
+      "sha256": "d72d7bc2789428e05c06287dfeb51f82012db3cf9a09c4f9bb67f72254b4f1ad"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/8021q.ko": {
       "bytes": 72969,
-      "sha256": "68150ecb31d0fbae13c55bee4a36b76793c28d4a7c011e4a22e7f8ef3d259930"
+      "sha256": "dc4ccadeeee09d0c937448e0ff0b62acc6a7b45fa2d90d33a1a3e16223d95289"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/9pnet.ko": {
       "bytes": 169089,
-      "sha256": "78192669d7bdcde70f565a02cc9188aba99309ce4686ac61ef011302c8b20756"
+      "sha256": "c61c6eba2b3340127173d464c0dbd71a059bd5ddd6b03389693d928dffc63dbe"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/9pnet_fd.ko": {
       "bytes": 39057,
-      "sha256": "03a907bad985e83777a30e3f4cd223a5d3fe0a2bb2fd5474fc92cd542f8e49f4"
+      "sha256": "71d30d2d13741da330db059427ec3e17875ee6fabdd2ad9b45a71cc0fa75850b"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/aqc111.ko": {
       "bytes": 48217,
-      "sha256": "148b26a6baf6a204d29e886b313d59f1498ae4a2a06aa41470762e054841830d"
+      "sha256": "aecb9ddb7eb2b7469132ef80aa69433d8fcd873aa42f850b082fc3a1580a924c"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/asix.ko": {
       "bytes": 99993,
-      "sha256": "cc3a5898cd8b08bf5dc0786195d08f84f7a7147d9edbd4bcb00b952ce243b41e"
+      "sha256": "8b59c1d0801f14402975d2504b8c415f211ed11052eaf7335c5e934a8d58e00c"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ax88179_178a.ko": {
       "bytes": 73193,
-      "sha256": "22414163692044c2b3be3913827367fe60c12d785dfc338aca231876b140030d"
+      "sha256": "422239542bbaa46d6f09c21eae13829cf9889bde3ff151c3c2f6a65bac009b67"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/bluetooth.ko": {
       "bytes": 1266377,
-      "sha256": "c4a3598dfd90c76df877f9ca5bdb41e2d0ff83bffd3f7f683013e5395064b138"
+      "sha256": "bffc3ee2f984d43511b995ed5424a70d107264450184bd78090330aaaa060548"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/bsd_comp.ko": {
       "bytes": 21417,
-      "sha256": "78e73210693a34a8c47d78c7178dae0ad5402844a7b3d37444c56499e5bc274a"
+      "sha256": "b0eaa35d8715edf007655e32d2bf86e316683a902fc1da0b7fd68dd54df978c4"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/btbcm.ko": {
       "bytes": 46281,
-      "sha256": "fa8a8eb5a22fd3564fbe8ea0efaa47f90acd2ffa4c85844073fcd13196631db1"
+      "sha256": "cf3cd615058bedf6c1275efcc4a7158524beb014947ceefe78033b41ecc3021b"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/btqca.ko": {
       "bytes": 46425,
-      "sha256": "169a33b19a70847bfb0c595d63185317b25433cd94e70158ce1733a75406a7e1"
+      "sha256": "b37e307f39fe40f7bf0aa38d7692f8b7605d7452aab2fda25d8ab99379a2f6c4"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/btsdio.ko": {
       "bytes": 31793,
-      "sha256": "0f8f024f87dbddabf24857e42d7905e5f347178ecf81edfc1c261ab1a192eb15"
+      "sha256": "bb52ce70bdf16b44af01b455a306ba2fd0fb7741564835361a31d6b8ea36821b"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/can-bcm.ko": {
       "bytes": 52561,
-      "sha256": "fcad109b1162277a739f2247aacaecba0b3af7c54e1e07eb4e62396b0c457399"
+      "sha256": "ce74134c4d91091daccd1d3be9322fa031cd14406ec31a1ac910af84467276f7"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/can-dev.ko": {
       "bytes": 80657,
-      "sha256": "20e4035792caade97d706fb103a5aefe24982683484ae3e972645c1de91fe743"
+      "sha256": "a513334d8bea00b2e4f950c773bf27b32642bc44993f6833e11cb4886af1ecf8"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/can-gw.ko": {
       "bytes": 43609,
-      "sha256": "cce0aae819593dfd1f7962e99c5d0b40bfeb03e41b852dc6a02b221da420f68b"
+      "sha256": "7c46db0dafd156db163153557d449d48f53f7c7f9d861c57bab7fbc1af664f4e"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/can-raw.ko": {
       "bytes": 44041,
-      "sha256": "38a58808ea3cba32e7992fc80e9a2e450927f6c3d9cf8b3b45a7f1023e326eef"
+      "sha256": "16b981e24cada82dea66280691bf7f57089a50d664352a2f12fb1938437d10fb"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/can.ko": {
       "bytes": 50801,
-      "sha256": "b19d0c2ed3913f4d1ddd8c521af00edfde422aa690d31266cdffc13473aa3427"
+      "sha256": "e4a82be873492722e4af84e65dc6914678a3ea2d7662c373dc2f3a018692363b"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/cctrng.ko": {
       "bytes": 27673,
-      "sha256": "b873c464cb9f112362253d377a8d139112aa6abb25a47606d4085cc9b66daed8"
+      "sha256": "1e9db0c10fcff26b0dc3bc43393bf868bacf90528f6f9c48f5976cc03e8d1692"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/cdc-acm.ko": {
       "bytes": 77425,
-      "sha256": "ea27aae03e40938451a4e488e9a20663de853b8442e6b3b3e52a5c119a6dffa9"
+      "sha256": "efc22b1989711c0a0ab2a3a29e00776921465ad12ffa388f5abfab7a68e299cb"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/cdc_eem.ko": {
       "bytes": 20057,
-      "sha256": "8999ac3b0c95a3786061deff785f9e3a7c9c12c4876a5159b0f2c0d62241653b"
+      "sha256": "ba979292c20c2274bf0ca3ba46a69ae159747198f1dac0c819d559057eeb4848"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/cdc_ether.ko": {
       "bytes": 34369,
-      "sha256": "8773056d0c230547b0c70091d4c5fece6826a638d1b259ad4007356d7cd738f6"
+      "sha256": "7d4f177aadd7b314d41f88da5d61c11c471c7726c6171d130c3d9473fe210079"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/cdc_ncm.ko": {
       "bytes": 59329,
-      "sha256": "e9f9db719cbbdd42ed1f8a27f98dd3127e9c0aff8a7d729a48f919b0cb712868"
+      "sha256": "841e38cc2cfa914d0f96be227e7c13904fbdc22f80478761ad169e6d1c5dca06"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/diag.ko": {
       "bytes": 14777,
-      "sha256": "3a9d1f99f1cd05d569f65afbb8c021022040cebfdf1e5a74323376ffe4329a72"
+      "sha256": "828e3f2c019eb6614c9cc4ce023664e7da969b5720d922f0f81cf8a4b0479b0d"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ftdi_sio.ko": {
       "bytes": 160649,
-      "sha256": "d3c673dd7f8947b039dc2bea40375174c1153fe4ae4481f79c07de00c1b67a0e"
+      "sha256": "2fb174450a8ef093b5738dbcdffddfb059298d592023460a24028122e6ba6a48"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/gzvm.ko": {
       "bytes": 110017,
-      "sha256": "e9839d97575ab131043b8c5f067790c3e3a6a242b3254eb974b7c8df4a4811ea"
+      "sha256": "5b5d4f65af5a8b1fd1ea82bb13b56e84c883aae8131d4db698fc927ce57a1a12"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/hci_uart.ko": {
       "bytes": 181937,
-      "sha256": "98b35ae259d7039539e5d99623a5972472c7a238c2712c56ff90d2eca5e5cc70"
+      "sha256": "b4cf8e30018355ad450cabf19bf6ce42ff60e0a99044728a41d209bb5aec5626"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/hidp.ko": {
       "bytes": 78433,
-      "sha256": "680372ceaa781b85891223a7d920c25f5e9650a2dc676e369642a49f0af17c7d"
+      "sha256": "d87deb23996e684496f3ab6fb6555664f248323c9f6cfa90ca68fbc70ae7ddcf"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ieee802154.ko": {
       "bytes": 266289,
-      "sha256": "fbb2f972f3e4cc9f2387f09805f835c5a89fe9bfa22c1b3464cbf3765aa37b75"
+      "sha256": "e6e2b287c3c2a676f891a40a9a9914eb9edac30d7e5638a2fb134286f0219a24"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ieee802154_6lowpan.ko": {
       "bytes": 47265,
-      "sha256": "4e75c50c18a39784681a62156ee8190b9523d680a1758d28245a07b535bdfedc"
+      "sha256": "96ee8bb5b7016c443d69d27451fae238ef6e9a66682acc3df2f55b6028a90ca8"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ieee802154_socket.ko": {
       "bytes": 51481,
-      "sha256": "07258f725626628f9adec66f56a24941f987a995eed32e8e6ee9b2318e226356"
+      "sha256": "c185f88090d16aa3c5f43786de372869157388fac4f1ef044a4137566de23299"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/kheaders.ko": {
-      "bytes": 4195433,
-      "sha256": "9b33da2ec1928265535129da6eacd8001adf26314f34c718a7d2622d9654d3b8"
+      "bytes": 4197545,
+      "sha256": "9490e48a5a4d0e217088e4b147455aaf478b3df8dd6ad57e0808eb7b70c34698"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/l2tp_core.ko": {
       "bytes": 110945,
-      "sha256": "682be1ff6a19e163e8ee9162e30606b14ed9b0d90ff86233fede7029611685ab"
+      "sha256": "136a23e88ffdc3c6a141c46e5fd8122ba15db323a56185e1bb471d2bf56332b0"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/l2tp_ppp.ko": {
       "bytes": 57465,
-      "sha256": "baa27b737d0d1595c28725258f889d23cedd2df992996e94e90515f2b3a39a49"
+      "sha256": "238a41203aaff1314b1a2b2cf254979234200e9fabb131b6e57dce4e33c117b8"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/libarc4.ko": {
       "bytes": 11465,
-      "sha256": "f6b0cb703c05fba1d65715d820f3347852971dd78c758e3b533772671d2330df"
+      "sha256": "7bae8908126f85994c4b197f6dbcf755e4bcfe3829324abda2ac7978a84c13ca"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/mac802154.ko": {
       "bytes": 260225,
-      "sha256": "d33fb706482822dedc17795d4b78d9737ba035ae2057339b6019ef873b6ff189"
+      "sha256": "2ed2c1076477e594ea8a2d887576c10e4470f3779de0ab39807121023258e733"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/macsec.ko": {
       "bytes": 117505,
-      "sha256": "e03142615fd819749e2ac036d3badd3245ed50016b4cb9a92a4bce715329b686"
+      "sha256": "502ac88f7bfebed34f72c201376aa7f11a3d30378a0838bc52d99679aafc2d35"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/mii.ko": {
       "bytes": 21017,
-      "sha256": "b8e14f4bd3669ee3072c84cd4627f706139b62d96212d54dac81134861b1117c"
+      "sha256": "751f03233adb340c3bebdadb000308ce6c60c501bceb881cd20b2ec2d8c77f55"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/modules.alias": {
       "bytes": 68667,
@@ -22556,535 +22428,167 @@
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/nfc.ko": {
       "bytes": 182625,
-      "sha256": "8f43be54c8ba84d3ee67f07498165e4a9cc9e74c4e76271827c63412c630b9a5"
+      "sha256": "692d4d943da0483d1adafb7f41c067c16f028fcb1c16f147373eba5853f5ff09"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/nhc_dest.ko": {
       "bytes": 12313,
-      "sha256": "9eed4c4c6dacc6a9d24e7ca16b219fadfdd5041e98c321c89d24ab1c6406e678"
+      "sha256": "16904e0e3ca56d0fd7156e9effe4fe4cc715d2afa8e6b60dfc0bff06b7d681f4"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/nhc_fragment.ko": {
       "bytes": 12321,
-      "sha256": "7d3f0f1eb8e9a1dca3b0fa79cdefd38e4f296f192f30be5ace42fccf7e296fcb"
+      "sha256": "80e3edac930b1eedb05031e3fa96a65186f3cc342d9af6f056ffb02d39bd4b4b"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/nhc_hop.ko": {
       "bytes": 12313,
-      "sha256": "b46aa9d5ac8baf38a9cca7b3bc0014d332c1207b7922922d291eb5765938efc6"
+      "sha256": "75ade510b9189ae92b61b12c7fc56067939c2935ebc57e9d033373e23d151745"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/nhc_ipv6.ko": {
       "bytes": 12249,
-      "sha256": "f978c7ca5b5091f60752a86174d11356fdcb34eb20ed78fd0afff849de57a81c"
+      "sha256": "187442cd2cd6422eb432959585b893b419567a0e107af2a1a97b31e87b7a9aeb"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/nhc_mobility.ko": {
       "bytes": 12321,
-      "sha256": "621f75aeca8a272ad5aaee3e1cad3bd9081fedac1a3062cc67f59311c6927963"
+      "sha256": "cd8051c94229b913ab9f603d58dbd4ee6669c2ffa91dce3982111da45baf30a7"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/nhc_routing.ko": {
       "bytes": 12257,
-      "sha256": "0898fca6a8f786c8f230b668e6d2b12ccdc7c1a29c5fb2ee9a752acff72be1bd"
+      "sha256": "2b829f6afbf4553a37da2beb9abd9cbae927395daab305213b3329ce1ec85923"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/nhc_udp.ko": {
       "bytes": 15601,
-      "sha256": "d5cbc9cad250dc5d924827efd6b95264727d596d3c957b99c3ba90ed0ce63d94"
+      "sha256": "85a1e3fc910859c79732f60ae0a93ee37143bf5d364ac601ffe732e6081018ac"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/open-dice.ko": {
       "bytes": 18457,
-      "sha256": "65ab70e9f948e1c7862e4085c95b6dc99ad5c9fe260f6bc7aa4d514df46403e0"
+      "sha256": "2be54db9cfa4b6dd1bd48518c5d0689591b7f7b3c77abd4066a4740560edfb3a"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ppp_deflate.ko": {
       "bytes": 22353,
-      "sha256": "8e884772cd29361e08c177408541e37ff9d976f5aab322219af9d0d9ea35b948"
+      "sha256": "669b41537f585781a11675271e17d18a0401616c754947db0b8742741fe1e014"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ppp_generic.ko": {
       "bytes": 87761,
-      "sha256": "991c0413f830dc42d679a92c7a85248c37d6f9b4e955a6800012aac2f837a894"
+      "sha256": "5ede72a74bae206f40e9bf04d396591f5add6452a0892030e93c142a3ca00fe2"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ppp_mppe.ko": {
       "bytes": 24729,
-      "sha256": "ab5580a6a890774890e5c4988b920d719ad6b42937a27f6598db49d17997f76d"
+      "sha256": "7fcb93d12eee28200a448dac1d48a738ae89f9c7d53b034aa46f25f2d77ff080"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/pppox.ko": {
       "bytes": 20065,
-      "sha256": "5f268c594f9e277e25f723c91568bc6bff5cfe23ccd70bf509631062f516d3fb"
+      "sha256": "1824f265c21238b9ebd1c18ca226c794f87dc04b0e695872b71acea7f365fbec"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/pps_core.ko": {
       "bytes": 37161,
-      "sha256": "a4cc2087102b1fdafdbc4e4c9b753e4fdd04c6847e7bc541002a03a88b036eb8"
+      "sha256": "8e0ea46896255472642b95e54af8c3d2600deced19befbe584f7c46ab2392262"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/pptp.ko": {
       "bytes": 34849,
-      "sha256": "3df74e0e93bf6c4d7066454d51be3b7cb93e098c6111f80d879a14211697b13d"
+      "sha256": "a1787aa58a9d1aa23ddc09d279145441dffcc54a7d876987d04d88784575ecf2"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ptp.ko": {
       "bytes": 67633,
-      "sha256": "166d936086c3ebd57f6ce27238a8e56d02a36a1a0ad83778297665b2dcf819d9"
+      "sha256": "e75875a616dddd860547d112258e4a988c50691505a156da2086d7afdeeaf5f8"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/ptp_kvm.ko": {
       "bytes": 18793,
-      "sha256": "129ac40a41fb46b0207c3ab5372e8fd22f093f28fa17bdfafe99fa0ff223e33b"
+      "sha256": "1fc1793098b838e9d8109f7383aa18838177fc156736951c3cb121c080811c44"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/r8152.ko": {
       "bytes": 227473,
-      "sha256": "b100ce787758432072fb269c174fdcefef1fd41c43ca50bf8ff245a5881b3af8"
+      "sha256": "42e522a6e8c02cace62e62c4bf3f0cce6d8e65d6e182085c126584f06a151107"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/r8153_ecm.ko": {
       "bytes": 18865,
-      "sha256": "9491cf95f2b0b31535c7a62e13b5ac941ed8a4d380aab6683fb2ff3814fa62d3"
+      "sha256": "be5accded813721ab26a84c67d4267f7b947a2ccb584d6a3ac48361d07544c76"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/rfcomm.ko": {
       "bytes": 144713,
-      "sha256": "64bfcffab5cfa82f5bde2024449c4864557af2f040c5eb923cb060cff4b48a48"
+      "sha256": "f36e381870e7444cb03c74d19b80c481286283e8166887b462ab1197cf0992ad"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/rfkill.ko": {
       "bytes": 59793,
-      "sha256": "6cd4d2799d6b1bdd604b4ddbf72e08ef7fb2199c6c0690b2b11bfc0b3ff6e52f"
+      "sha256": "6f0cc0d052073b51f3dc117c9ed762a668e2d5ab813b59f4c4d1dddeb6d48433"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/rtl8150.ko": {
       "bytes": 38857,
-      "sha256": "e03da02b8f6e8c806f3672e96358c6ec460842b1e81a6e3a357ec3b9334eac26"
+      "sha256": "99ed8fdb25f356213ca58ea62288e4789104f27e3c80a9dd1e7d7089e80d0fa5"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/slcan.ko": {
       "bytes": 38737,
-      "sha256": "c2bbb76ca5a240a762b165d373fc8dacfb37e1a2b08a8488cf3536ccae4f4a7d"
+      "sha256": "144711078651275581e9b39b307c30f49bfdb96a1b5c7d2486ac442206a9eda6"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/slhc.ko": {
       "bytes": 20849,
-      "sha256": "2e1abe4d32784107c96769dd078626b419d92da702749f754eae2114fd90914f"
+      "sha256": "d63c5372655b928510986d8df3a8eb79df00c514929cf7921cdd9f3499f8284b"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/tipc.ko": {
       "bytes": 691537,
-      "sha256": "413fc279b113551e1a5bc3aeb290d66bee44cc75e992bf65b7d5280eb06fcf41"
+      "sha256": "2370f9ae2eb1bb0b35f14decf156b4c269e19d0cfb7616d5b5eb3ec20e5b14a6"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/tls.ko": {
       "bytes": 154833,
-      "sha256": "fe18d10c587cdc612bf39ace70e85e3d48cc5ad741d3f8529664ec35c3587398"
+      "sha256": "62a7e520889d5b5fc04e230c92497e10ab9fa901c726d6cc4a13882aa8d27d7f"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/usbmon.ko": {
       "bytes": 69729,
-      "sha256": "8cd813e2f50b787068f06981312166ff7db9009af9be75cb90dcb04b90df3a59"
+      "sha256": "3f62d7b3f0df35b492e23f1a88022d44308fba0c2cf584d54e03a715406906eb"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/usbnet.ko": {
       "bytes": 84745,
-      "sha256": "14b78fa7b96edb95aca2b0cd238260a85eb16e2d69866212299e2c5fc7cf171b"
+      "sha256": "a24987a28b4f399f3a14c5379d4f8c98eb72d91088f42adef503c57058b71376"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/usbserial.ko": {
       "bytes": 84833,
-      "sha256": "5d52af1074c5caaea296c554469f9bc2a162fca1ccd65bb65088d5e6b338c7cb"
+      "sha256": "0a1ab7007374ca9da40e0beaca4997e84354aab7bbe4284803749a40c14f2f03"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/vcan.ko": {
       "bytes": 20945,
-      "sha256": "08dba261e8b495ed114b44ba222857db7d5c88403f09d0c0d35e2cb9dd38df0c"
+      "sha256": "4c39f5c21aa549ce255223fdf30a1fa2b2f497a9cab6516ead14557a36c4fb73"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/vcpu_stall_detector.ko": {
       "bytes": 21409,
-      "sha256": "74a6feeb0377359753c271d9c1f8e00ff045dd2ff87f248aa4fefe45242c9a56"
+      "sha256": "537abc74e776d6ad34ae317a2d6d726a9e9d2e61e45e73af401bdc61b951f696"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/virtio_balloon.ko": {
       "bytes": 44241,
-      "sha256": "58ff838adbafbb1bf5274e8c12b0fdf59d22ccee11b4516e9da2a69bef54d766"
+      "sha256": "99f315d6f1ca48f6f1a82fe532b139980c754b620d240c756008ca4d66c53d0b"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/virtio_blk.ko": {
       "bytes": 54865,
-      "sha256": "8fc4564fd303d3aadc6e2188d169eb85949b8823a2f0caf80dd12f27e6a0f4ca"
+      "sha256": "a068c1fb96201404fcee84d952bc79eadbf191aba6c656bc6182d3ffd6a1c99e"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/virtio_console.ko": {
       "bytes": 67769,
-      "sha256": "4db2aa2cd67296dc3097a127f5a59da2b1963b808019dab53d9d01fd8d1df93c"
+      "sha256": "97e710bf4c6913563166eec436e24988e212029e91e0ce0006ac72d29685dfd0"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/virtio_pci.ko": {
       "bytes": 58609,
-      "sha256": "1b37d2ec21a5666da48c369de6fe8ed81f10c3e3c3fd5f0d25d67ae0f7163a1f"
+      "sha256": "9472c58213ed95fa11bf6b94ab1cb4cbefbb3252f73c35f9f40eb9fff30ccd34"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/virtio_pci_legacy_dev.ko": {
       "bytes": 24361,
-      "sha256": "a07064a47b37654549dcfabc7249ecf9730f9f2231c8e669d842174c2472a82e"
+      "sha256": "9becf5f417defbbb6267bf4f0fed76a05bf32b50634f7522afbeeb475681d06d"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/virtio_pci_modern_dev.ko": {
       "bytes": 34961,
-      "sha256": "6dd1df848061b893edd5a7e4901cd1a9d3c75f0bfb8c5dbc5dbb88372c303844"
+      "sha256": "e7d32c083785f636f57e1c83cdb94d4e8c042bd9cc1034cbfd4b40cce952f3d3"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/vmw_vsock_virtio_transport.ko": {
       "bytes": 41393,
-      "sha256": "cd9f8f87954d4dac6fa06a651b723b42b536b9560f9918f98aa892e1e5ac0e90"
+      "sha256": "8206f7ff106e3299ce31bdc3349d50cc54722d84d5d8d8e009354f72329731c8"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/wwan.ko": {
       "bytes": 53905,
-      "sha256": "fe9c25f5d5c76637f88282535fcd2abe1c0b5cc9aacd83e81014debda95fe5e3"
+      "sha256": "a17fe85fba14f7b4d388e26254b559e113e5a6ba60b344857983003ed530db2a"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/zram.ko": {
       "bytes": 85249,
-      "sha256": "6c0e91dd78774c89db4049720d5f8998408b79a4bff8b0cdb52137e9edab9e70"
+      "sha256": "ba14c0a1af196f186f83d87b48e30df6bda7e77b8a2d8cbc7ddbc2b90e8581f0"
     },
     "boot/gki-no-kunit/system_dlkm/flatten/lib/modules/zsmalloc.ko": {
       "bytes": 56193,
-      "sha256": "c85363f8f9e60864c1d481953f61ab8bcaa096c5295463c1e60afbf3b7abc84b"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/arch/arm64/geniezone/gzvm.ko": {
-      "bytes": 110017,
-      "sha256": "e9839d97575ab131043b8c5f067790c3e3a6a242b3254eb974b7c8df4a4811ea"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/block/virtio_blk.ko": {
-      "bytes": 54865,
-      "sha256": "8fc4564fd303d3aadc6e2188d169eb85949b8823a2f0caf80dd12f27e6a0f4ca"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/block/zram/zram.ko": {
-      "bytes": 85249,
-      "sha256": "6c0e91dd78774c89db4049720d5f8998408b79a4bff8b0cdb52137e9edab9e70"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/bluetooth/btbcm.ko": {
-      "bytes": 46281,
-      "sha256": "fa8a8eb5a22fd3564fbe8ea0efaa47f90acd2ffa4c85844073fcd13196631db1"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/bluetooth/btqca.ko": {
-      "bytes": 46425,
-      "sha256": "169a33b19a70847bfb0c595d63185317b25433cd94e70158ce1733a75406a7e1"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/bluetooth/btsdio.ko": {
-      "bytes": 31793,
-      "sha256": "0f8f024f87dbddabf24857e42d7905e5f347178ecf81edfc1c261ab1a192eb15"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/bluetooth/hci_uart.ko": {
-      "bytes": 181937,
-      "sha256": "98b35ae259d7039539e5d99623a5972472c7a238c2712c56ff90d2eca5e5cc70"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/char/hw_random/cctrng.ko": {
-      "bytes": 27673,
-      "sha256": "b873c464cb9f112362253d377a8d139112aa6abb25a47606d4085cc9b66daed8"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/char/virtio_console.ko": {
-      "bytes": 67769,
-      "sha256": "4db2aa2cd67296dc3097a127f5a59da2b1963b808019dab53d9d01fd8d1df93c"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/misc/open-dice.ko": {
-      "bytes": 18457,
-      "sha256": "65ab70e9f948e1c7862e4085c95b6dc99ad5c9fe260f6bc7aa4d514df46403e0"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/misc/vcpu_stall_detector.ko": {
-      "bytes": 21409,
-      "sha256": "74a6feeb0377359753c271d9c1f8e00ff045dd2ff87f248aa4fefe45242c9a56"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/can/dev/can-dev.ko": {
-      "bytes": 80657,
-      "sha256": "20e4035792caade97d706fb103a5aefe24982683484ae3e972645c1de91fe743"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/can/slcan/slcan.ko": {
-      "bytes": 38737,
-      "sha256": "c2bbb76ca5a240a762b165d373fc8dacfb37e1a2b08a8488cf3536ccae4f4a7d"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/can/vcan.ko": {
-      "bytes": 20945,
-      "sha256": "08dba261e8b495ed114b44ba222857db7d5c88403f09d0c0d35e2cb9dd38df0c"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/macsec.ko": {
-      "bytes": 117505,
-      "sha256": "e03142615fd819749e2ac036d3badd3245ed50016b4cb9a92a4bce715329b686"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/mii.ko": {
-      "bytes": 21017,
-      "sha256": "b8e14f4bd3669ee3072c84cd4627f706139b62d96212d54dac81134861b1117c"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/ppp/bsd_comp.ko": {
-      "bytes": 21417,
-      "sha256": "78e73210693a34a8c47d78c7178dae0ad5402844a7b3d37444c56499e5bc274a"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/ppp/ppp_deflate.ko": {
-      "bytes": 22353,
-      "sha256": "8e884772cd29361e08c177408541e37ff9d976f5aab322219af9d0d9ea35b948"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/ppp/ppp_generic.ko": {
-      "bytes": 87761,
-      "sha256": "991c0413f830dc42d679a92c7a85248c37d6f9b4e955a6800012aac2f837a894"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/ppp/ppp_mppe.ko": {
-      "bytes": 24729,
-      "sha256": "ab5580a6a890774890e5c4988b920d719ad6b42937a27f6598db49d17997f76d"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/ppp/pppox.ko": {
-      "bytes": 20065,
-      "sha256": "5f268c594f9e277e25f723c91568bc6bff5cfe23ccd70bf509631062f516d3fb"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/ppp/pptp.ko": {
-      "bytes": 34849,
-      "sha256": "3df74e0e93bf6c4d7066454d51be3b7cb93e098c6111f80d879a14211697b13d"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/slip/slhc.ko": {
-      "bytes": 20849,
-      "sha256": "2e1abe4d32784107c96769dd078626b419d92da702749f754eae2114fd90914f"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/aqc111.ko": {
-      "bytes": 48217,
-      "sha256": "148b26a6baf6a204d29e886b313d59f1498ae4a2a06aa41470762e054841830d"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/asix.ko": {
-      "bytes": 99993,
-      "sha256": "cc3a5898cd8b08bf5dc0786195d08f84f7a7147d9edbd4bcb00b952ce243b41e"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/ax88179_178a.ko": {
-      "bytes": 73193,
-      "sha256": "22414163692044c2b3be3913827367fe60c12d785dfc338aca231876b140030d"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/cdc_eem.ko": {
-      "bytes": 20057,
-      "sha256": "8999ac3b0c95a3786061deff785f9e3a7c9c12c4876a5159b0f2c0d62241653b"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/cdc_ether.ko": {
-      "bytes": 34369,
-      "sha256": "8773056d0c230547b0c70091d4c5fece6826a638d1b259ad4007356d7cd738f6"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/cdc_ncm.ko": {
-      "bytes": 59329,
-      "sha256": "e9f9db719cbbdd42ed1f8a27f98dd3127e9c0aff8a7d729a48f919b0cb712868"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/r8152.ko": {
-      "bytes": 227473,
-      "sha256": "b100ce787758432072fb269c174fdcefef1fd41c43ca50bf8ff245a5881b3af8"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/r8153_ecm.ko": {
-      "bytes": 18865,
-      "sha256": "9491cf95f2b0b31535c7a62e13b5ac941ed8a4d380aab6683fb2ff3814fa62d3"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/rtl8150.ko": {
-      "bytes": 38857,
-      "sha256": "e03da02b8f6e8c806f3672e96358c6ec460842b1e81a6e3a357ec3b9334eac26"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/usb/usbnet.ko": {
-      "bytes": 84745,
-      "sha256": "14b78fa7b96edb95aca2b0cd238260a85eb16e2d69866212299e2c5fc7cf171b"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/net/wwan/wwan.ko": {
-      "bytes": 53905,
-      "sha256": "fe9c25f5d5c76637f88282535fcd2abe1c0b5cc9aacd83e81014debda95fe5e3"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/pps/pps_core.ko": {
-      "bytes": 37161,
-      "sha256": "a4cc2087102b1fdafdbc4e4c9b753e4fdd04c6847e7bc541002a03a88b036eb8"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/ptp/ptp.ko": {
-      "bytes": 67633,
-      "sha256": "166d936086c3ebd57f6ce27238a8e56d02a36a1a0ad83778297665b2dcf819d9"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/ptp/ptp_kvm.ko": {
-      "bytes": 18793,
-      "sha256": "129ac40a41fb46b0207c3ab5372e8fd22f093f28fa17bdfafe99fa0ff223e33b"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/usb/class/cdc-acm.ko": {
-      "bytes": 77425,
-      "sha256": "ea27aae03e40938451a4e488e9a20663de853b8442e6b3b3e52a5c119a6dffa9"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/usb/mon/usbmon.ko": {
-      "bytes": 69729,
-      "sha256": "8cd813e2f50b787068f06981312166ff7db9009af9be75cb90dcb04b90df3a59"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/usb/serial/ftdi_sio.ko": {
-      "bytes": 160649,
-      "sha256": "d3c673dd7f8947b039dc2bea40375174c1153fe4ae4481f79c07de00c1b67a0e"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/usb/serial/usbserial.ko": {
-      "bytes": 84833,
-      "sha256": "5d52af1074c5caaea296c554469f9bc2a162fca1ccd65bb65088d5e6b338c7cb"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/virtio/virtio_balloon.ko": {
-      "bytes": 44241,
-      "sha256": "58ff838adbafbb1bf5274e8c12b0fdf59d22ccee11b4516e9da2a69bef54d766"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/virtio/virtio_pci.ko": {
-      "bytes": 58609,
-      "sha256": "1b37d2ec21a5666da48c369de6fe8ed81f10c3e3c3fd5f0d25d67ae0f7163a1f"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/virtio/virtio_pci_legacy_dev.ko": {
-      "bytes": 24361,
-      "sha256": "a07064a47b37654549dcfabc7249ecf9730f9f2231c8e669d842174c2472a82e"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/drivers/virtio/virtio_pci_modern_dev.ko": {
-      "bytes": 34961,
-      "sha256": "6dd1df848061b893edd5a7e4901cd1a9d3c75f0bfb8c5dbc5dbb88372c303844"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/kernel/kheaders.ko": {
-      "bytes": 4195433,
-      "sha256": "9b33da2ec1928265535129da6eacd8001adf26314f34c718a7d2622d9654d3b8"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/lib/crypto/libarc4.ko": {
-      "bytes": 11465,
-      "sha256": "f6b0cb703c05fba1d65715d820f3347852971dd78c758e3b533772671d2330df"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/mm/zsmalloc.ko": {
-      "bytes": 56193,
-      "sha256": "c85363f8f9e60864c1d481953f61ab8bcaa096c5295463c1e60afbf3b7abc84b"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/6lowpan/6lowpan.ko": {
-      "bytes": 43897,
-      "sha256": "a4d1fb65f1dac8d812abfb4574382c9fa116f09fd22c6878fd3ac1434823c006"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/6lowpan/nhc_dest.ko": {
-      "bytes": 12313,
-      "sha256": "9eed4c4c6dacc6a9d24e7ca16b219fadfdd5041e98c321c89d24ab1c6406e678"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/6lowpan/nhc_fragment.ko": {
-      "bytes": 12321,
-      "sha256": "7d3f0f1eb8e9a1dca3b0fa79cdefd38e4f296f192f30be5ace42fccf7e296fcb"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/6lowpan/nhc_hop.ko": {
-      "bytes": 12313,
-      "sha256": "b46aa9d5ac8baf38a9cca7b3bc0014d332c1207b7922922d291eb5765938efc6"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/6lowpan/nhc_ipv6.ko": {
-      "bytes": 12249,
-      "sha256": "f978c7ca5b5091f60752a86174d11356fdcb34eb20ed78fd0afff849de57a81c"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/6lowpan/nhc_mobility.ko": {
-      "bytes": 12321,
-      "sha256": "621f75aeca8a272ad5aaee3e1cad3bd9081fedac1a3062cc67f59311c6927963"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/6lowpan/nhc_routing.ko": {
-      "bytes": 12257,
-      "sha256": "0898fca6a8f786c8f230b668e6d2b12ccdc7c1a29c5fb2ee9a752acff72be1bd"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/6lowpan/nhc_udp.ko": {
-      "bytes": 15601,
-      "sha256": "d5cbc9cad250dc5d924827efd6b95264727d596d3c957b99c3ba90ed0ce63d94"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/8021q/8021q.ko": {
-      "bytes": 72969,
-      "sha256": "68150ecb31d0fbae13c55bee4a36b76793c28d4a7c011e4a22e7f8ef3d259930"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/9p/9pnet.ko": {
-      "bytes": 169089,
-      "sha256": "78192669d7bdcde70f565a02cc9188aba99309ce4686ac61ef011302c8b20756"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/9p/9pnet_fd.ko": {
-      "bytes": 39057,
-      "sha256": "03a907bad985e83777a30e3f4cd223a5d3fe0a2bb2fd5474fc92cd542f8e49f4"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/bluetooth/bluetooth.ko": {
-      "bytes": 1266377,
-      "sha256": "c4a3598dfd90c76df877f9ca5bdb41e2d0ff83bffd3f7f683013e5395064b138"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/bluetooth/hidp/hidp.ko": {
-      "bytes": 78433,
-      "sha256": "680372ceaa781b85891223a7d920c25f5e9650a2dc676e369642a49f0af17c7d"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/bluetooth/rfcomm/rfcomm.ko": {
-      "bytes": 144713,
-      "sha256": "64bfcffab5cfa82f5bde2024449c4864557af2f040c5eb923cb060cff4b48a48"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/can/can-bcm.ko": {
-      "bytes": 52561,
-      "sha256": "fcad109b1162277a739f2247aacaecba0b3af7c54e1e07eb4e62396b0c457399"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/can/can-gw.ko": {
-      "bytes": 43609,
-      "sha256": "cce0aae819593dfd1f7962e99c5d0b40bfeb03e41b852dc6a02b221da420f68b"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/can/can-raw.ko": {
-      "bytes": 44041,
-      "sha256": "38a58808ea3cba32e7992fc80e9a2e450927f6c3d9cf8b3b45a7f1023e326eef"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/can/can.ko": {
-      "bytes": 50801,
-      "sha256": "b19d0c2ed3913f4d1ddd8c521af00edfde422aa690d31266cdffc13473aa3427"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/ieee802154/6lowpan/ieee802154_6lowpan.ko": {
-      "bytes": 47265,
-      "sha256": "4e75c50c18a39784681a62156ee8190b9523d680a1758d28245a07b535bdfedc"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/ieee802154/ieee802154.ko": {
-      "bytes": 266289,
-      "sha256": "fbb2f972f3e4cc9f2387f09805f835c5a89fe9bfa22c1b3464cbf3765aa37b75"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/ieee802154/ieee802154_socket.ko": {
-      "bytes": 51481,
-      "sha256": "07258f725626628f9adec66f56a24941f987a995eed32e8e6ee9b2318e226356"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/l2tp/l2tp_core.ko": {
-      "bytes": 110945,
-      "sha256": "682be1ff6a19e163e8ee9162e30606b14ed9b0d90ff86233fede7029611685ab"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/l2tp/l2tp_ppp.ko": {
-      "bytes": 57465,
-      "sha256": "baa27b737d0d1595c28725258f889d23cedd2df992996e94e90515f2b3a39a49"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/mac802154/mac802154.ko": {
-      "bytes": 260225,
-      "sha256": "d33fb706482822dedc17795d4b78d9737ba035ae2057339b6019ef873b6ff189"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/nfc/nfc.ko": {
-      "bytes": 182625,
-      "sha256": "8f43be54c8ba84d3ee67f07498165e4a9cc9e74c4e76271827c63412c630b9a5"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/rfkill/rfkill.ko": {
-      "bytes": 59793,
-      "sha256": "6cd4d2799d6b1bdd604b4ddbf72e08ef7fb2199c6c0690b2b11bfc0b3ff6e52f"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/tipc/diag.ko": {
-      "bytes": 14777,
-      "sha256": "3a9d1f99f1cd05d569f65afbb8c021022040cebfdf1e5a74323376ffe4329a72"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/tipc/tipc.ko": {
-      "bytes": 691537,
-      "sha256": "413fc279b113551e1a5bc3aeb290d66bee44cc75e992bf65b7d5280eb06fcf41"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/tls/tls.ko": {
-      "bytes": 154833,
-      "sha256": "fe18d10c587cdc612bf39ace70e85e3d48cc5ad741d3f8529664ec35c3587398"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/kernel/net/vmw_vsock/vmw_vsock_virtio_transport.ko": {
-      "bytes": 41393,
-      "sha256": "cd9f8f87954d4dac6fa06a651b723b42b536b9560f9918f98aa892e1e5ac0e90"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.alias": {
-      "bytes": 68667,
-      "sha256": "219011468a2682113acba9d49bf04861bb86e8278305649be59dc01c59474a6e"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.alias.bin": {
-      "bytes": 70612,
-      "sha256": "cff9bf28859f50bcb41420d03a5dcdae3c26776a9a8584b29577b9dea70c47ec"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.builtin": {
-      "bytes": 21353,
-      "sha256": "225674493abbe333619a21beb41dd3585979511ac846151afa4e0245e2ab5309"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.builtin.alias.bin": {
-      "bytes": 26595,
-      "sha256": "c260afa80a89412ae8d922774317075aa12f7f728c8bbe3da4b7c51b090ae58b"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.builtin.bin": {
-      "bytes": 24784,
-      "sha256": "01889bebc22ecc0ab605d307430067b94bb65836de31fb098b09779faee869b2"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.builtin.modinfo": {
-      "bytes": 142509,
-      "sha256": "3e3f5eda8fa204107d4f3b42cf06a8ac4ec8eda0ddde33d877144d675331cc8b"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.dep": {
-      "bytes": 5082,
-      "sha256": "97b822bdd74c221eb310bd5952aca936a5f958330e67c3796936630110798c71"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.dep.bin": {
-      "bytes": 8504,
-      "sha256": "cb308fabbb8c1becf5a8dae1c75b1005eac202b32c33da8fe7a4e3aab446fd61"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.devname": {
-      "bytes": 97,
-      "sha256": "d3df24670d61aabe9c8517530171326821797509a7c0d3ec7579d77aa714ece7"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.load": {
-      "bytes": 2585,
-      "sha256": "de94235bbdaadfa7448a9f105cf9d7ccf3b42b3443b953c5f92f3e9354587aa8"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.order": {
-      "bytes": 2585,
-      "sha256": "de94235bbdaadfa7448a9f105cf9d7ccf3b42b3443b953c5f92f3e9354587aa8"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.softdep": {
-      "bytes": 55,
-      "sha256": "ac2de753255c506934be29e69261f1485f51ee9cf9c2bf467bcc0c4cf95f8713"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.symbols": {
-      "bytes": 13443,
-      "sha256": "1de74068218060c269bf3aa225e8f1220eb2ade0378bb421a880c96fbd3ad2cd"
-    },
-    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-gc4127a25dcf3-dirty-4k/modules.symbols.bin": {
-      "bytes": 16904,
-      "sha256": "b289c2d95630a0ad13c694e458400ebef0ac51c424da6de210aca5c5b79b27f7"
+      "sha256": "b25ac4070674c537f668e19658ba6fb8cf4a8ae76d175c37f77d6c648bd89c1e"
     },
     "boot/recovery_ramdisk/Android.bp": {
       "bytes": 2436,
@@ -23113,10 +22617,6 @@
     "boot/recovery_ramdisk/vendor/lib/modules/spf_core_dlkm.ko": {
       "bytes": 299328,
       "sha256": "3a4a933cc9e817c752dc43d1beaab20fe55740eb1a9afd04ec069f4c25ed08e1"
-    },
-    "boot/system_dlkm.img": {
-      "bytes": 15294464,
-      "sha256": "b70e091f7cd10dd1eeeca020f2bea54c03dd1b731bf29df9ebe7b477877b48da"
     },
     "boot/vendor_dlkm/lib/modules/goodix_core.ko": {
       "bytes": 649016,
@@ -24989,6 +24489,374 @@
     "Xpan/Android.mk": {
       "bytes": 559,
       "sha256": "257cbd95d7860ea5ba5afe616a36affa9a6496532c30028b80ca636ef386f9b0"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/arch/arm64/geniezone/gzvm.ko": {
+      "bytes": 110017,
+      "sha256": "5b5d4f65af5a8b1fd1ea82bb13b56e84c883aae8131d4db698fc927ce57a1a12"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/block/virtio_blk.ko": {
+      "bytes": 54865,
+      "sha256": "a068c1fb96201404fcee84d952bc79eadbf191aba6c656bc6182d3ffd6a1c99e"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/block/zram/zram.ko": {
+      "bytes": 85249,
+      "sha256": "ba14c0a1af196f186f83d87b48e30df6bda7e77b8a2d8cbc7ddbc2b90e8581f0"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/bluetooth/btbcm.ko": {
+      "bytes": 46281,
+      "sha256": "cf3cd615058bedf6c1275efcc4a7158524beb014947ceefe78033b41ecc3021b"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/bluetooth/btqca.ko": {
+      "bytes": 46425,
+      "sha256": "b37e307f39fe40f7bf0aa38d7692f8b7605d7452aab2fda25d8ab99379a2f6c4"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/bluetooth/btsdio.ko": {
+      "bytes": 31793,
+      "sha256": "bb52ce70bdf16b44af01b455a306ba2fd0fb7741564835361a31d6b8ea36821b"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/bluetooth/hci_uart.ko": {
+      "bytes": 181937,
+      "sha256": "b4cf8e30018355ad450cabf19bf6ce42ff60e0a99044728a41d209bb5aec5626"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/char/hw_random/cctrng.ko": {
+      "bytes": 27673,
+      "sha256": "1e9db0c10fcff26b0dc3bc43393bf868bacf90528f6f9c48f5976cc03e8d1692"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/char/virtio_console.ko": {
+      "bytes": 67769,
+      "sha256": "97e710bf4c6913563166eec436e24988e212029e91e0ce0006ac72d29685dfd0"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/misc/open-dice.ko": {
+      "bytes": 18457,
+      "sha256": "2be54db9cfa4b6dd1bd48518c5d0689591b7f7b3c77abd4066a4740560edfb3a"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/misc/vcpu_stall_detector.ko": {
+      "bytes": 21409,
+      "sha256": "537abc74e776d6ad34ae317a2d6d726a9e9d2e61e45e73af401bdc61b951f696"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/can/dev/can-dev.ko": {
+      "bytes": 80657,
+      "sha256": "a513334d8bea00b2e4f950c773bf27b32642bc44993f6833e11cb4886af1ecf8"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/can/slcan/slcan.ko": {
+      "bytes": 38737,
+      "sha256": "144711078651275581e9b39b307c30f49bfdb96a1b5c7d2486ac442206a9eda6"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/can/vcan.ko": {
+      "bytes": 20945,
+      "sha256": "4c39f5c21aa549ce255223fdf30a1fa2b2f497a9cab6516ead14557a36c4fb73"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/macsec.ko": {
+      "bytes": 117505,
+      "sha256": "502ac88f7bfebed34f72c201376aa7f11a3d30378a0838bc52d99679aafc2d35"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/mii.ko": {
+      "bytes": 21017,
+      "sha256": "751f03233adb340c3bebdadb000308ce6c60c501bceb881cd20b2ec2d8c77f55"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/ppp/bsd_comp.ko": {
+      "bytes": 21417,
+      "sha256": "b0eaa35d8715edf007655e32d2bf86e316683a902fc1da0b7fd68dd54df978c4"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/ppp/ppp_deflate.ko": {
+      "bytes": 22353,
+      "sha256": "669b41537f585781a11675271e17d18a0401616c754947db0b8742741fe1e014"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/ppp/ppp_generic.ko": {
+      "bytes": 87761,
+      "sha256": "5ede72a74bae206f40e9bf04d396591f5add6452a0892030e93c142a3ca00fe2"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/ppp/ppp_mppe.ko": {
+      "bytes": 24729,
+      "sha256": "7fcb93d12eee28200a448dac1d48a738ae89f9c7d53b034aa46f25f2d77ff080"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/ppp/pppox.ko": {
+      "bytes": 20065,
+      "sha256": "1824f265c21238b9ebd1c18ca226c794f87dc04b0e695872b71acea7f365fbec"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/ppp/pptp.ko": {
+      "bytes": 34849,
+      "sha256": "a1787aa58a9d1aa23ddc09d279145441dffcc54a7d876987d04d88784575ecf2"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/slip/slhc.ko": {
+      "bytes": 20849,
+      "sha256": "d63c5372655b928510986d8df3a8eb79df00c514929cf7921cdd9f3499f8284b"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/aqc111.ko": {
+      "bytes": 48217,
+      "sha256": "aecb9ddb7eb2b7469132ef80aa69433d8fcd873aa42f850b082fc3a1580a924c"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/asix.ko": {
+      "bytes": 99993,
+      "sha256": "8b59c1d0801f14402975d2504b8c415f211ed11052eaf7335c5e934a8d58e00c"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/ax88179_178a.ko": {
+      "bytes": 73193,
+      "sha256": "422239542bbaa46d6f09c21eae13829cf9889bde3ff151c3c2f6a65bac009b67"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/cdc_eem.ko": {
+      "bytes": 20057,
+      "sha256": "ba979292c20c2274bf0ca3ba46a69ae159747198f1dac0c819d559057eeb4848"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/cdc_ether.ko": {
+      "bytes": 34369,
+      "sha256": "7d4f177aadd7b314d41f88da5d61c11c471c7726c6171d130c3d9473fe210079"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/cdc_ncm.ko": {
+      "bytes": 59329,
+      "sha256": "841e38cc2cfa914d0f96be227e7c13904fbdc22f80478761ad169e6d1c5dca06"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/r8152.ko": {
+      "bytes": 227473,
+      "sha256": "42e522a6e8c02cace62e62c4bf3f0cce6d8e65d6e182085c126584f06a151107"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/r8153_ecm.ko": {
+      "bytes": 18865,
+      "sha256": "be5accded813721ab26a84c67d4267f7b947a2ccb584d6a3ac48361d07544c76"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/rtl8150.ko": {
+      "bytes": 38857,
+      "sha256": "99ed8fdb25f356213ca58ea62288e4789104f27e3c80a9dd1e7d7089e80d0fa5"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/usb/usbnet.ko": {
+      "bytes": 84745,
+      "sha256": "a24987a28b4f399f3a14c5379d4f8c98eb72d91088f42adef503c57058b71376"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/net/wwan/wwan.ko": {
+      "bytes": 53905,
+      "sha256": "a17fe85fba14f7b4d388e26254b559e113e5a6ba60b344857983003ed530db2a"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/pps/pps_core.ko": {
+      "bytes": 37161,
+      "sha256": "8e0ea46896255472642b95e54af8c3d2600deced19befbe584f7c46ab2392262"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/ptp/ptp.ko": {
+      "bytes": 67633,
+      "sha256": "e75875a616dddd860547d112258e4a988c50691505a156da2086d7afdeeaf5f8"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/ptp/ptp_kvm.ko": {
+      "bytes": 18793,
+      "sha256": "1fc1793098b838e9d8109f7383aa18838177fc156736951c3cb121c080811c44"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/usb/class/cdc-acm.ko": {
+      "bytes": 77425,
+      "sha256": "efc22b1989711c0a0ab2a3a29e00776921465ad12ffa388f5abfab7a68e299cb"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/usb/mon/usbmon.ko": {
+      "bytes": 69729,
+      "sha256": "3f62d7b3f0df35b492e23f1a88022d44308fba0c2cf584d54e03a715406906eb"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/usb/serial/ftdi_sio.ko": {
+      "bytes": 160649,
+      "sha256": "2fb174450a8ef093b5738dbcdffddfb059298d592023460a24028122e6ba6a48"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/usb/serial/usbserial.ko": {
+      "bytes": 84833,
+      "sha256": "0a1ab7007374ca9da40e0beaca4997e84354aab7bbe4284803749a40c14f2f03"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/virtio/virtio_balloon.ko": {
+      "bytes": 44241,
+      "sha256": "99f315d6f1ca48f6f1a82fe532b139980c754b620d240c756008ca4d66c53d0b"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/virtio/virtio_pci.ko": {
+      "bytes": 58609,
+      "sha256": "9472c58213ed95fa11bf6b94ab1cb4cbefbb3252f73c35f9f40eb9fff30ccd34"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/virtio/virtio_pci_legacy_dev.ko": {
+      "bytes": 24361,
+      "sha256": "9becf5f417defbbb6267bf4f0fed76a05bf32b50634f7522afbeeb475681d06d"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/drivers/virtio/virtio_pci_modern_dev.ko": {
+      "bytes": 34961,
+      "sha256": "e7d32c083785f636f57e1c83cdb94d4e8c042bd9cc1034cbfd4b40cce952f3d3"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/kernel/kheaders.ko": {
+      "bytes": 4197545,
+      "sha256": "9490e48a5a4d0e217088e4b147455aaf478b3df8dd6ad57e0808eb7b70c34698"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/lib/crypto/libarc4.ko": {
+      "bytes": 11465,
+      "sha256": "7bae8908126f85994c4b197f6dbcf755e4bcfe3829324abda2ac7978a84c13ca"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/mm/zsmalloc.ko": {
+      "bytes": 56193,
+      "sha256": "b25ac4070674c537f668e19658ba6fb8cf4a8ae76d175c37f77d6c648bd89c1e"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/6lowpan/6lowpan.ko": {
+      "bytes": 43897,
+      "sha256": "d72d7bc2789428e05c06287dfeb51f82012db3cf9a09c4f9bb67f72254b4f1ad"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/6lowpan/nhc_dest.ko": {
+      "bytes": 12313,
+      "sha256": "16904e0e3ca56d0fd7156e9effe4fe4cc715d2afa8e6b60dfc0bff06b7d681f4"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/6lowpan/nhc_fragment.ko": {
+      "bytes": 12321,
+      "sha256": "80e3edac930b1eedb05031e3fa96a65186f3cc342d9af6f056ffb02d39bd4b4b"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/6lowpan/nhc_hop.ko": {
+      "bytes": 12313,
+      "sha256": "75ade510b9189ae92b61b12c7fc56067939c2935ebc57e9d033373e23d151745"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/6lowpan/nhc_ipv6.ko": {
+      "bytes": 12249,
+      "sha256": "187442cd2cd6422eb432959585b893b419567a0e107af2a1a97b31e87b7a9aeb"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/6lowpan/nhc_mobility.ko": {
+      "bytes": 12321,
+      "sha256": "cd8051c94229b913ab9f603d58dbd4ee6669c2ffa91dce3982111da45baf30a7"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/6lowpan/nhc_routing.ko": {
+      "bytes": 12257,
+      "sha256": "2b829f6afbf4553a37da2beb9abd9cbae927395daab305213b3329ce1ec85923"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/6lowpan/nhc_udp.ko": {
+      "bytes": 15601,
+      "sha256": "85a1e3fc910859c79732f60ae0a93ee37143bf5d364ac601ffe732e6081018ac"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/8021q/8021q.ko": {
+      "bytes": 72969,
+      "sha256": "dc4ccadeeee09d0c937448e0ff0b62acc6a7b45fa2d90d33a1a3e16223d95289"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/9p/9pnet.ko": {
+      "bytes": 169089,
+      "sha256": "c61c6eba2b3340127173d464c0dbd71a059bd5ddd6b03389693d928dffc63dbe"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/9p/9pnet_fd.ko": {
+      "bytes": 39057,
+      "sha256": "71d30d2d13741da330db059427ec3e17875ee6fabdd2ad9b45a71cc0fa75850b"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/bluetooth/bluetooth.ko": {
+      "bytes": 1266377,
+      "sha256": "bffc3ee2f984d43511b995ed5424a70d107264450184bd78090330aaaa060548"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/bluetooth/hidp/hidp.ko": {
+      "bytes": 78433,
+      "sha256": "d87deb23996e684496f3ab6fb6555664f248323c9f6cfa90ca68fbc70ae7ddcf"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/bluetooth/rfcomm/rfcomm.ko": {
+      "bytes": 144713,
+      "sha256": "f36e381870e7444cb03c74d19b80c481286283e8166887b462ab1197cf0992ad"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/can/can-bcm.ko": {
+      "bytes": 52561,
+      "sha256": "ce74134c4d91091daccd1d3be9322fa031cd14406ec31a1ac910af84467276f7"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/can/can-gw.ko": {
+      "bytes": 43609,
+      "sha256": "7c46db0dafd156db163153557d449d48f53f7c7f9d861c57bab7fbc1af664f4e"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/can/can-raw.ko": {
+      "bytes": 44041,
+      "sha256": "16b981e24cada82dea66280691bf7f57089a50d664352a2f12fb1938437d10fb"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/can/can.ko": {
+      "bytes": 50801,
+      "sha256": "e4a82be873492722e4af84e65dc6914678a3ea2d7662c373dc2f3a018692363b"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/ieee802154/6lowpan/ieee802154_6lowpan.ko": {
+      "bytes": 47265,
+      "sha256": "96ee8bb5b7016c443d69d27451fae238ef6e9a66682acc3df2f55b6028a90ca8"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/ieee802154/ieee802154.ko": {
+      "bytes": 266289,
+      "sha256": "e6e2b287c3c2a676f891a40a9a9914eb9edac30d7e5638a2fb134286f0219a24"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/ieee802154/ieee802154_socket.ko": {
+      "bytes": 51481,
+      "sha256": "c185f88090d16aa3c5f43786de372869157388fac4f1ef044a4137566de23299"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/l2tp/l2tp_core.ko": {
+      "bytes": 110945,
+      "sha256": "136a23e88ffdc3c6a141c46e5fd8122ba15db323a56185e1bb471d2bf56332b0"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/l2tp/l2tp_ppp.ko": {
+      "bytes": 57465,
+      "sha256": "238a41203aaff1314b1a2b2cf254979234200e9fabb131b6e57dce4e33c117b8"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/mac802154/mac802154.ko": {
+      "bytes": 260225,
+      "sha256": "2ed2c1076477e594ea8a2d887576c10e4470f3779de0ab39807121023258e733"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/nfc/nfc.ko": {
+      "bytes": 182625,
+      "sha256": "692d4d943da0483d1adafb7f41c067c16f028fcb1c16f147373eba5853f5ff09"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/rfkill/rfkill.ko": {
+      "bytes": 59793,
+      "sha256": "6f0cc0d052073b51f3dc117c9ed762a668e2d5ab813b59f4c4d1dddeb6d48433"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/tipc/diag.ko": {
+      "bytes": 14777,
+      "sha256": "828e3f2c019eb6614c9cc4ce023664e7da969b5720d922f0f81cf8a4b0479b0d"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/tipc/tipc.ko": {
+      "bytes": 691537,
+      "sha256": "2370f9ae2eb1bb0b35f14decf156b4c269e19d0cfb7616d5b5eb3ec20e5b14a6"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/tls/tls.ko": {
+      "bytes": 154833,
+      "sha256": "62a7e520889d5b5fc04e230c92497e10ab9fa901c726d6cc4a13882aa8d27d7f"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/kernel/net/vmw_vsock/vmw_vsock_virtio_transport.ko": {
+      "bytes": 41393,
+      "sha256": "8206f7ff106e3299ce31bdc3349d50cc54722d84d5d8d8e009354f72329731c8"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.alias": {
+      "bytes": 68667,
+      "sha256": "219011468a2682113acba9d49bf04861bb86e8278305649be59dc01c59474a6e"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.alias.bin": {
+      "bytes": 70612,
+      "sha256": "cff9bf28859f50bcb41420d03a5dcdae3c26776a9a8584b29577b9dea70c47ec"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.builtin": {
+      "bytes": 21353,
+      "sha256": "225674493abbe333619a21beb41dd3585979511ac846151afa4e0245e2ab5309"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.builtin.alias.bin": {
+      "bytes": 26595,
+      "sha256": "c260afa80a89412ae8d922774317075aa12f7f728c8bbe3da4b7c51b090ae58b"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.builtin.bin": {
+      "bytes": 24784,
+      "sha256": "01889bebc22ecc0ab605d307430067b94bb65836de31fb098b09779faee869b2"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.builtin.modinfo": {
+      "bytes": 142509,
+      "sha256": "3e3f5eda8fa204107d4f3b42cf06a8ac4ec8eda0ddde33d877144d675331cc8b"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.dep": {
+      "bytes": 5082,
+      "sha256": "97b822bdd74c221eb310bd5952aca936a5f958330e67c3796936630110798c71"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.dep.bin": {
+      "bytes": 8504,
+      "sha256": "cb308fabbb8c1becf5a8dae1c75b1005eac202b32c33da8fe7a4e3aab446fd61"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.devname": {
+      "bytes": 97,
+      "sha256": "d3df24670d61aabe9c8517530171326821797509a7c0d3ec7579d77aa714ece7"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.load": {
+      "bytes": 2585,
+      "sha256": "de94235bbdaadfa7448a9f105cf9d7ccf3b42b3443b953c5f92f3e9354587aa8"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.order": {
+      "bytes": 2585,
+      "sha256": "de94235bbdaadfa7448a9f105cf9d7ccf3b42b3443b953c5f92f3e9354587aa8"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.softdep": {
+      "bytes": 55,
+      "sha256": "ac2de753255c506934be29e69261f1485f51ee9cf9c2bf467bcc0c4cf95f8713"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.symbols": {
+      "bytes": 13443,
+      "sha256": "1de74068218060c269bf3aa225e8f1220eb2ade0378bb421a880c96fbd3ad2cd"
+    },
+    "boot/gki-no-kunit/system_dlkm/lib/modules/6.6.118-android15-8-g134cd5061013-dirty-4k/modules.symbols.bin": {
+      "bytes": 16904,
+      "sha256": "b289c2d95630a0ad13c694e458400ebef0ac51c424da6de210aca5c5b79b27f7"
     }
   }
 }
